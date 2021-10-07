@@ -1,69 +1,21 @@
 ## Inleiding
 
-*Hier de inleiding, een generieke tekst over het onderwerp van het rapport, de omgeving van eht rapport, enz ...* 
+**Een wijzigingsprotocol beschrijft de manier waarop wijzigingen in de basisset geo-standaarden plaatsvinden: het wijzigingsproces. In het protocol zijn basisbegrippen en uitgangspunten uiteengezet voor het wijzigingsproces, bijvoorbeeld wat onder nieuwe en volgende versies verstaan wordt, en wanneer deze verwacht mogen worden.**
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
-### Toepassingsgebied
+### Checklist 
 
-*Beschrijf het toepassingsgebied, voorbeeld: het installatieregister, wat is het, waarvoor wordt het gebruikt (of gaat het worden gebruikt), enz ...*
+Gebaseerd op dit wijzigingsprotocol, is een checklist voor het wijzigen van de basis geo-standaarden opgesteld. Deze checklist moet vaker kunnen wijzigen dan het wijzigingsprotocol. Daarom maakt de checklist geen onderdeel uit van het wijzigingsprotocol, maar is het een separate bijlage bij het wijzigingsprotocol.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+### 2.2	Begrippen
 
-### Doelgroep
 
-*Beschrijf de doelgroep, wie dat zijn, en hoe ze het rapport kunnen gebruiken*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-### Leeswijzer
-
-*Beschrijf hoe het document gelzezen moet worden, welke hoofdstukken voor wie bedoeld zijn, enz...*
-
-Lorem ipsum dolor sit amet, consectetuer [Analyse](#analyse) elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat [Inhoudelijke Keuzes](#inhoudelijke-keuzes) massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis [Conclusies en Aanbevelingen](#conclusies-en-aanbevelingen) pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus [Expert Sessies](#expert-sessies) viverra nulla ut metus varius laoreet. 
-Quisque rutrum. [Informatiemodel](#informatiemodel) Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-### Het proces
-
-*Beschrijf het proces waarmee dit document is ontwikkeld*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+| Begrip | Kolom-2 | 
+|------------|---------|
+| **(Basis) geo-standaard** | Standaard uit de set geo-standaarden die is opgenomen op de Pas toe of leg uit-lijst van het Forum Standaardisatie. De basisset geo-standaarden bevat de domeinoverstijgende standaarden die nodig zijn om de Nederlandse geo-informatie infrastructuur goed te laten functioneren.          |
+| **Roadmap**  |  Voor alle standaarden die bij Geonovum worden ontwikkeld en in beheer zijn/ komen in de komende jaren       |
+| **Standaardenagenda**  | Voor het lopende jaar de standaarden die in het kader van basisprogramma in ontwikkeling en beheer zijn.        |
+| **Wijzigingsprotocol**  | Hiermee wordt het geheel van vastgelegde regels en afspraken voor het wijzigen van de geo-standaard vastgelegd.        |
+| **Wijzigingsproces**  |  Het wijzigingsproces is de daadwerkelijke wijziging van de geo-standaard op een bepaald moment. Het volledige wijzigingsproces doorloopt de fasen van het wijzigingsprotocol met een datum van inwerkingtreding van de nieuwe geo-standaard.        |
+| **Wijzigingsverzoek**  | Een wijzigingsverzoek is door een actor ingediend bij Geonovum, de beheerder van de geo-standaard; de geo-standaard moet op een bepaald punt met deze reden worden aangepast of aangevuld of niet. Een wijzigingsverzoek dat niet wordt ingewilligd, wordt beargumenteerd afgewezen. Een ingediende wens of gevonden fout voor de geo-standaard noemen we een wijzigingsverzoek. Iedere geo-standaard heeft een lijst met wijzigingsverzoeken inzichtelijk.         |
+| **Wijzigingsvoorstel** | In het wijzigingsproces worden de wijzigingsverzoeken die daarin worden meegenomen gebundeld tot één wijzigingsvoorstel.        |

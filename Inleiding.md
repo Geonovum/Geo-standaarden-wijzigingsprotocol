@@ -7,7 +7,7 @@
 
 Gebaseerd op dit wijzigingsprotocol, is een checklist voor het wijzigen van de basis geo-standaarden opgesteld. Deze checklist moet vaker kunnen wijzigen dan het wijzigingsprotocol. Daarom maakt de checklist geen onderdeel uit van het wijzigingsprotocol, maar is het een separate bijlage bij het wijzigingsprotocol.
 
-### 2.2	Begrippen
+### Begrippen
 
 
 | Begrip | Kolom-2 | 

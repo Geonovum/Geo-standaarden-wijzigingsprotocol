@@ -38,7 +38,7 @@ In het algemeen zal de Programmaraad alleen besluiten om een versie te laten ver
 
 ### Proces varianten
 
-In paragraaf [Oude versie van een standaard](#Oude-versie-van-een-standaard) zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen. 
+In paragraaf [Oude versie van een standaard](#oude-versie-van-een-standaard) zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen. 
 
 **Proces voor X en Y wijzigingen**
 
@@ -66,7 +66,7 @@ De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implement
 
 **Besluitvorming**
 
-Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie paragraaf [Proces varianten](#Proces-varianten) , besluit de Programmaraad dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard aangemeld bij het Forum Standaardisatie.
+Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie paragraaf [Proces varianten](#proces-varianten) , besluit de Programmaraad dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard aangemeld bij het Forum Standaardisatie.
 
 **Implementatie**
 

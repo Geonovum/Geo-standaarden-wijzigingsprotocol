@@ -96,7 +96,7 @@ var respecConfig =
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "gsw",  	              // Geonovum Standaarden Wijzigingsprotocol
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
-  pubDomain: "gsw", 	              // Geonovum beheerdocumentatie wijzigingsprotocol
+  pubDomain: "gbw", 	              // Geonovum beheerdocumentatie wijzigingsprotocol
   //pubDomain: "mim", 	            // Metamodel Informatie Modellering
   //pubDomain: "bor", 	            // Beheer Openbare Ruimte
   //pubDomain: "bro", 	            // Basisregistratie Ondergrond

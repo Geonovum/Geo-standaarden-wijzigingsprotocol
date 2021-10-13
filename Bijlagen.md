@@ -1,8 +1,6 @@
 ## Bijlagen
 
-### Bijlage 1
-
-**Overzicht status van wijzigingsverzoeken**
+### Overzicht status van wijzigingsverzoeken
 
 
 | Status   voorstel | Beschrijving activiteiten  |

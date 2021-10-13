@@ -3,7 +3,7 @@
 Dit document is aan verandering onderhevig. Het versiebeheer van het document geeft inzicht in wijzigen en de actualiteit ervan.
 
 | **Versie** | **Datum**      | **Status**     | **Bewerking**   | **Toelichting**                                                                                                                             |
-|------------|----------------|----------------|--------------=--|---------------------------------------------------------------------------------------------------------------------------------------------| 
+|------------|----------------|----------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------| 
 | 0.1        | April 2017     |	Concept	       | Monique         |	Eerste opzet wijzigingsprotocol naar aanleiding van bespreking standaarden team 13 maart.                                                  |
 | 0.25       | Mei 2017 	  | Concept        | Frank en Monique|  Herschikken en aanvullen van paragrafen                                                                                                    |
 | 0.26    	 | Mei 2017       |	Concept        | Frank           |	Nieuwe figuren over het oces                                                                                                               |

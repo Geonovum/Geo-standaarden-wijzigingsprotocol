@@ -19,16 +19,10 @@ Met behulp van het wijzigingsprotocol wordt de geplande wijziging van de geo-sta
 
 De meldingen en wijzigingsverzoeken alsook (inter)nationale ontwikkelingen geven aanleiding tot de verdere ontwikkeling voor een standaard. Zij worden gebundeld in een wijzigingsvoorstel. Het wijzigingsprotocol geeft richting aan het wijzigingsproces dat dit wijzigingsvoorstel doorloopt. In onderstaand figuur  is het wijzigingsproces geschetst voor het vaststellen van een nieuwe (versie van een) geo-standaard. De beschrijving geldt voor de type wijziging versie x en y. De programmaraad beoordeelt en beslist over deze wijzigingsvoorstellen. Z-wijzigingen worden door Geonovum zelf uitgevoerd zonder tussenkomst van de programmaraad. 
 
-**XXXXXXXXX figuur nog aanpassen  XXXXXXXXXXXXXXXXXXXXX**
 
-**Figuur Proces vaststellen nieuwe standaard voor X en Y wijzigingen**
+**Figuur Proces vaststellen nieuwe standaard**
 
 ![Proces vaststellen nieuwe standaard](media/proces_vaststellen_nieuwe_standaard.png)
 
 Dit figuur toont drie groepen: Geonovum, de werkgroep en de programmaraad. De werkgroep voert het wijzigingsvoorstel in de standaard door. Dit resulteert in een definitief concept van de nieuwe versie van de standaard. De programmaraad beoordeelt dit definitief concept. Keurt zij het goed, dan is er een nieuwe standaard. Keurt zij het af, dan gaat het concept terug naar de werkgroep. Na aanpassing wordt het opnieuw aan de programmaraad voorgelegd, net zo lang totdat de programmaraad de nieuwe versie van de standaard accordeert of de standaard teruggetrokken wordt.
 
-**XXXXXXXXX figuur nog aanpassen  XXXXXXXXXXXXXXXXXXXXX**
-
-**Figuur Proces vaststellen nieuwe standaard voor Z wijziginge**
-
-![Proces vaststellen nieuwe standaard](media/proces_vaststellen_nieuwe_standaard.png)

@@ -79,7 +79,7 @@ De volgende groepen en instanties zijn betrokken bij het wijzigingsproces van de
 -	Softwareleveranciers;
 -	Programmaraad;
 -	Forum Standaardisatie;
--	VNG Realisatie in verband met software catalogus
+-	VNG Realisatie in verband met software catalogus.
 
 
 **Werkgroep en softwareleveranciers**

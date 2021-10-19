@@ -6,9 +6,9 @@
 ### Technische bestanden
 
 Om softwareleveranciers en gebruikers te ondersteunen bij de implementatie van een nieuwe versie van de geo-standaard, leveren wij verschillende bestanden en documentatie op:
-- Implementatiebestanden
-- Voorbeeldbestanden
-- Voorbeeldberichten
+- Implementatiebestanden;
+- Voorbeeldbestanden;
+- Voorbeeldberichten.
 
 Schema’s en Schematron (validatieregels) zijn voorbeelden van implementatiebestanden die als onderdeel van standaarden door Geonovum worden opgeleverd. Het kan hier ook gaan om implementatiebestanden voor visualisatieregels en iconen.
 

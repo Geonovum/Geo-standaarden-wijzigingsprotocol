@@ -11,7 +11,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4        | December 2017  |	Concept        | Dick            |	Aanvullingen op 0.3, graag integraal behandelen                                                                                            |
 | 1.0        | Augustus 2018  |Ter vaststelling| Dick            |	Aanbieden aan Programmaraad ter vaststelling. Door Programmaraad ter advisering aan Regieoverleg overgedragen.                             |
 | 1.1        | Juni 2019	  |Ter vaststelling| Friso           |	Opmerkingen Regieoverleg verwerkt en opnieuw aangeboden aan Regieoverleg. Belangrijkste wijzigingen: X-wijz. max 1x per 3 jaar, Y-wijz. max 1x per jaar, Z-wijz. z.s.m. Verder formuleringen aangescherpt over rol NEN bij NEN3610, OGC bij GML en Forum bij toekennen PTOLU-status aan standaarden. Aanbieden aan Programmaraad ter vaststelling                 |
-| 1.1	     | 2 Juli 2019    |	Vastgesteld    | Friso           |	Programmaraad                                                                                                                              |
+| 1.1	     | 2 Juli 2019    |	Vastgesteld    | Friso           |	[Programmaraad](https://www.geonovum.nl/over-geonovum/wie-wij-zijn#Programmaraad)                                                                                                                              |
 
                            
 

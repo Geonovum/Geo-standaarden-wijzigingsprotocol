@@ -42,7 +42,7 @@ In paragraaf [Oude versie van een standaard](#oude-versie-van-een-standaard) zij
 
 **Proces voor X en Y wijzigingen**
 
-Deze vergen volledige afstemming en het doorlopen van alle in paragraaf 3.4 beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke stakeholders. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Besluitvorming over vaststelling van een standaard vindt plaats in de programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
+Deze vergen volledige afstemming en het doorlopen van alle in paragraaf [Oude versie van een standaard](#oude-versie-van-een-standaard) beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke stakeholders. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Besluitvorming over vaststelling van een standaard vindt plaats in de programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
 
 **Proces voor Z wijzigingen**
 
@@ -52,13 +52,13 @@ Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase word
 
 Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie, zoals weergegeven in onderstaand figuur. 
 
-**figuur Fasen wijzigingsproces**
+**Figuur: Fasen wijzigingsproces**
 
 ![Fasen wijzigingsproces](media/fasen_wijzigingsproces.png)
 
 **Inhoud**
 
-In de fase inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd in Mantis, Github of een andere issue tracker en is zichtbaar op de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 
+In de fase inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd in Jira, Github of een andere issue tracker en is zichtbaar op de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 
 
 **Toetsing**
 
@@ -66,7 +66,7 @@ De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implement
 
 **Besluitvorming**
 
-Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie paragraaf [Proces varianten](#proces-varianten) , besluit de Programmaraad dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard aangemeld bij het Forum Standaardisatie.
+Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie paragraaf [Proces varianten](#proces-varianten), besluit de Programmaraad dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard aangemeld bij het [Forum Standaardisatie](https://forumstandaardisatie.nl/open-standaarden/verplicht?trefwoord=182).
 
 **Implementatie**
 
@@ -75,10 +75,10 @@ Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze 
 ### Betrokkenen
 
 De volgende groepen en instanties zijn betrokken bij het wijzigingsproces van de geo-standaard:
--	Werkgroep
--	Softwareleveranciers
--	Programmaraad
--	Forum Standaardisatie
+-	Werkgroep;
+-	Softwareleveranciers;
+-	Programmaraad;
+-	Forum Standaardisatie;
 -	VNG Realisatie in verband met software catalogus
 
 
@@ -88,11 +88,11 @@ Nieuwe versies van de geo-standaard bereidt Geonovum voor in samenwerking met de
 
 **Programmaraad**
 
-Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de programmaraad met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen (zie paragraaf [Oude versie van een standaard](#Oude-versie-van-een-standaard)) wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de programmaraad. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt de geo-standaard formeel vast. 
+Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de [programmaraad}(https://www.geonovum.nl/over-geonovum/wie-wij-zijn#Programmaraad) met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen (zie paragraaf [Oude versie van een standaard](#Oude-versie-van-een-standaard)) wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de programmaraad. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt de geo-standaard formeel vast. 
 
 **Forum Standaardisatie**
 
-De basisset geo-standaarden staat op de Pas toe of leg uit-lijst van het Forum Standaardisatie. Organisatorisch bestaat er geen formele relatie tussen de programmaraad en het Forum Standaardisatie. De programmaraad stelt (versies van) geostandaarden vast (voor zover dat niet in de governancestructuur van NEN of OGC gebeurt); het Forum Standaardisatie besluit uiteindelijk of die vastgestelde (versies van) geo-standaarden ook de status krijgen die behoort bij opname op de Pas toe of leg uit-lijst (de verplichting voor overheden om die standaarden uit te vragen bij aanbestedingen). 
+De basisset geo-standaarden staat op de {Pas toe of leg uit-lijst}(https://forumstandaardisatie.nl/open-standaarden/verplicht) van het Forum Standaardisatie. Organisatorisch bestaat er geen formele relatie tussen de programmaraad en het Forum Standaardisatie. De programmaraad stelt (versies van) geo-standaarden vast (voor zover dat niet in de governancestructuur van NEN of OGC gebeurt); het Forum Standaardisatie besluit uiteindelijk of die vastgestelde (versies van) geo-standaarden ook de status krijgen die behoort bij opname op de Pas toe of leg uit-lijst (de verplichting voor overheden om die standaarden uit te vragen bij aanbestedingen). 
 
 Geonovum heeft het predicaat uitstekend beheer voor de huidige standaarden (NEN3610, GML, serviceprofielen en metadataprofielen) in de set geo-standaarden. Dit betekent dat Geonovum het beheer en versiebeheer van die geo-standaarden zodanig open en structureel heeft vormgegeven, dat het Forum erop vertrouwt dat alle mogelijke belangen die spelen rondom de standaarden correct zijn meegenomen en afgewogen door Geonovum bij de totstandkoming van de nieuwe versie van de standaard. Op het moment dat Geonovum (of een andere partij) een nieuwe versie van een basis geo-standaard aanmeldt, wordt deze door het Forum in de regel na een veel lichtere procedure opgenomen.
 
@@ -100,4 +100,4 @@ Geonovum kondigt consultaties over de basis geo-standaarden aan bij Bureau Forum
 
 **VNG Realisatie**
 
-Verschillende standaarden die Geonovum beheert, komen voor in de GEMMA standaardenlijst en de GEMMA softwarecatalogus van VNG Realisatie. In de GEMMA standaardenlijst wordt bijgehouden welke versies van de standaarden 'in ontwikkeling', 'in gebruik', 'teruggetrokken' of 'niet ondersteund' zijn. Geonovum bepaalt wat de status van de standaardversies is.
+Verschillende standaarden die Geonovum beheert, komen voor in de GEMMA standaardenlijst en de GEMMA [softwarecatalogus](https://www.softwarecatalogus.nl/) van VNG Realisatie. In de GEMMA standaardenlijst wordt bijgehouden welke versies van de standaarden 'in ontwikkeling', 'in gebruik', 'teruggetrokken' of 'niet ondersteund' zijn. Geonovum bepaalt wat de status van de standaardversies is.

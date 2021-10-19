@@ -30,7 +30,7 @@ Gebaseerd op dit wijzigingsprotocol, is een checklist voor het wijzigen van de b
 ### Begrippen
 
 
-| Begrip | Kolom-2 | 
+| Begrip | Toelichting | 
 |------------|---------|
 | **(Basis) geo-standaard** | Standaard uit de set geo-standaarden die is opgenomen op de Pas toe of leg uit-lijst van het Forum Standaardisatie. De basisset geo-standaarden bevat de domeinoverstijgende standaarden die nodig zijn om de Nederlandse geo-informatie infrastructuur goed te laten functioneren.          |
 | **Roadmap**  |  Voor alle standaarden die bij Geonovum worden ontwikkeld en in beheer zijn/ komen in de komende jaren       |

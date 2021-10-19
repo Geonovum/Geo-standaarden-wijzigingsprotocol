@@ -4,7 +4,7 @@
 ### Introductie
 
 
-In Nederland ontwikkelt en beheert Geonovum de basisset geo-standaarden. Mensen die in de praktijk gebruik maken van deze standaarden hebben vragen over de toepassing ervan, willen weten welke ontwikkelingen er spelen en hebben mogelijk suggesties voor aanpassingen van deze standaarden. In het document [beheer geo-standaarden](https://geonovum.github.io/Geo-standaarden-beheerplan/); worden de verschillende beheeraspecten beschreven zoals implementatieondersteuning, wijzigingsproces, governance, etcetera zodat iedere organisatie die de basisset geo-standaarden gebruikt haar weg weet te vinden in de geo-standaarden.
+In Nederland ontwikkelt en beheert Geonovum de basisset geo-standaarden. Mensen die in de praktijk gebruik maken van deze standaarden hebben vragen over de toepassing ervan, willen weten welke ontwikkelingen er spelen en hebben mogelijk suggesties voor aanpassingen van deze standaarden. In het document [beheer geo-standaarden](https://docs.geostandaarden.nl/gbd/def-bd-gsb-20210818/); worden de verschillende beheeraspecten beschreven zoals implementatieondersteuning, wijzigingsproces, governance, etcetera zodat iedere organisatie die de basisset geo-standaarden gebruikt haar weg weet te vinden in de geo-standaarden.
 
 In dit document beschrijven we een onderdeel van het beheer: de manier waarop de wijzigingen van een basis geo-standaard plaatsvinden. Dit wijzigingsprotocol is dan ook alleen van toepassing op de basisset geo-standaarden, voor zover die bij Geonovum in beheer zijn. De basisset bestaat uit:
 -	Basismodel geo-informatie (NEN 3610);

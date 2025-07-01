@@ -1,6 +1,6 @@
 # Geo-standaarden Wijzigingsprotocol
 
-Voor de leesbare respec versie klik [hier](https://geonovum.github.io/Geo-standaarden-wijzigingsprotocol/)
+Voor de leesbare respec werkversie klik [hier](https://geonovum.github.io/Geo-standaarden-wijzigingsprotocol/)
 
 
 

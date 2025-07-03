@@ -13,6 +13,7 @@ Met behulp van een wijzigingsprotocol voor de basisset geo-standaarden geeft Geo
 </ul>
 <br/>
 De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het jaarplan voor standaardisatie en innovatie. Hierin staan de activiteiten die wij uitvoeren om de interoperabiliteit binnen onze nationale geodata infrastructuur (NGII) te borgen en welke innovaties wij in dit kader verkennen.
+<br/><br/>  
 ## Releasebeleid {#000486F9}
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie paragraaf 2.2.1) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
@@ -74,12 +75,10 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <br/>
 <figure><img src='media/image1.jpeg' alt='Picture 5' style='width: 100%;'></img>
 <figcaption>Figuur 1 Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
-
 <br/>
 <br/>
 <b>Werkgroep en softwareleveranciers</b>
 Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
-<br/>
 <br/>
 <b>Regie-overleg geo-standaarden </b>
 Het Regie-overleg geo-standaarden richt zich op het borgen en vergroten van de samenhang tussen de standaarden in de set geo-standaarden. De set zoals die geplaatst is op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden/verplicht' target='_blank'>Pas toe of leg uit</a>’ -standaarden lijst van het Forum Standaardisatie en tussen domeinstandaarden, die gebaseerd zijn op het basismodel voor geo-informatie NEN 3610. 

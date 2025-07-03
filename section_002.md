@@ -13,7 +13,8 @@ Met behulp van een wijzigingsprotocol voor de basisset geo-standaarden geeft Geo
 </ul>
 <br/>
 De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het jaarplan voor standaardisatie en innovatie. Hierin staan de activiteiten die wij uitvoeren om de interoperabiliteit binnen onze nationale geodata infrastructuur (NGII) te borgen en welke innovaties wij in dit kader verkennen.
-<br/><br/>  
+<br/>
+<br/>  
 ## Releasebeleid {#000486F9}
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie paragraaf 2.2.1) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
@@ -26,7 +27,8 @@ We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij
 </ul> 
 <br/> 
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
-<br/><br/>
+<br/>
+<br/>
 ### Nieuwe versie van de standaard {#48BAAD23}
 Elk product van onze standaarden is altijd voorzien van een versienummer. Bij het aanpassen van dat product, wijzigt het versienummer. De grootte van de wijzigingen (major, minor, patch ofwel X,Y,Z wijzigingen) heeft gevolg voor de implementatie van de standaard en wordt uitgedrukt in de  versienummering. Hierbij wordt de ‘Semantic Versioning’ (<a href='https://semver.org/lang/nl/' target='_blank'>SemVer</a>) methodiek aangehouden.
 <br/>

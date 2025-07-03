@@ -1,5 +1,6 @@
 # Gebruik van het wijzigingsprotocol {#41513FF0}
 Het wijzigingsprotocol schrijft een vast stramien voor het wijzigen van de standaard voor. Het protocol benoemt de fasen en de op te leveren resultaten. Belangrijk zijn de randvoorwaarden en uitgangspunten. De gebruikers en ketenpartners van de geo-standaarden worden bij het wijzigen van de standaard nauw betrokken. 
+
 ## Protocol versus proces {#7CDE8796}
 De titel van dit document geeft aan dat het hier om een protocol gaat. Toch wordt in dit document ook gesproken over processen. Een wijzigingsprotocol beschrijft de manier waarop wijzigingen in de basisset geo-standaarden plaatsvinden: het wijzigingsproces. In het protocol zijn basisbegrippen en uitgangspunten uiteengezet voor het wijzigingsproces, bijvoorbeeld wat onder nieuwe en volgende versies verstaan wordt en wanneer deze verwacht mogen worden. De daadwerkelijke planning van een nieuwe versie is op hoofdlijnen uitgewerkt in de standaardenagenda, en meer in detail in de tijdens de kwartaalplanning uitwerkt. Deze standaardenagenda zal nog worden vertaald naar een roadmap, waarin voor de komende jaren de verdere ontwikkeling en de uitfasering van de (verschillende versies van de) standaarden wordt getoond.
 <br/>
@@ -15,7 +16,7 @@ De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het 
 <br/>
 
 ## Releasebeleid {#000486F9}
-Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie [paragraaf 2.2.1](48BAAD23)) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
+Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie [paragraaf 2.2.1](#48BAAD23)) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
 <br/>
 We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij een release wordt de nieuwe versie van het product/ de bundel van producten opgeleverd en gepubliceerd van GitHub naar een van de volgende Geonovum publicatieservers. Welke publicatieserver is afhankelijk van het type product.  
@@ -60,11 +61,11 @@ Voor het onderhoud en de ondersteuning van een oude versie van een standaard gel
 In [paragraaf 2.2](#000486F9) zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
 <br/>
 <br/>
-<b>Proces voor X en Y wijzigingen</b>
+<b>Proces voor X en Y wijzigingen</b> 
 Deze vergen volledige afstemming en het doorlopen van alle in paragraaf 2.4 beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke gebruikers en ketenpartners van de betreffende standaard. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Nadat het Regie-overleg geo-standaarden is gevraagd te adviseren over de wijziging, vindt besluitvorming over vaststelling van de geo-standaard plaats in de Programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
 <br/>
 <br/>
-<b>Proces voor Z wijzigingen</b>
+<b>Proces voor Z wijzigingen</b> 
 Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase wordt door een medewerker van Geonovum gedaan. Toetsing vindt plaats door middel van een (beperkte) consultatie in het standaardenteam van Geonovum en met gebruikers en ketenpartners. Besluitvorming vindt plaats door het standaardenteam van Geonovum met een notificatie van de wijziging aan de Programmaraad. Implementatie vindt plaats door het publiceren van de wijziging op de website van Geonovum.
 <br/>
 
@@ -82,11 +83,11 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <figcaption>Figuur 1 Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
 <br/>
 <br/>
-<b>Werkgroep en softwareleveranciers</b>
+<b>Werkgroep en softwareleveranciers</b> 
 Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
 <br/>
 <br/>
-<b>Regie-overleg geo-standaarden </b>
+<b>Regie-overleg geo-standaarden</b> 
 Het Regie-overleg geo-standaarden richt zich op het borgen en vergroten van de samenhang tussen de standaarden in de set geo-standaarden. De set zoals die geplaatst is op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden/verplicht' target='_blank'>Pas toe of leg uit</a>’ -standaarden lijst van het Forum Standaardisatie en tussen domeinstandaarden, die gebaseerd zijn op het basismodel voor geo-informatie NEN 3610. 
 Het Regie-overleg geo-standaarden:
 <ul><li>is domein-overstijgend;</li>
@@ -99,11 +100,11 @@ Het Regie-overleg geo-standaarden gaat nadrukkelijk niet over de governance van 
 Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waarbij de focus ligt op het ondersteunen van verbindingen tussen verschillende partijen op het gebied van geo-standaarden. Het overleg heeft een informerende, signalerende en adviserende functie ten opzichte van de Programmaraad, maar neemt zelf geen besluiten – de Programmaraad van Geonovum besluit. 
 <br/>
 <br/>
-<b>Programmaraad</b>
+<b>Programmaraad</b> 
 Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen (zie [paragraaf 2.2.3](#3C90F7C6)) wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De Programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast. 
 <br/>
 <br/>
-<b>Forum Standaardisatie</b>
+<b>Forum Standaardisatie</b> 
 Het Forum Standaardisatie adviseert de Nederlandse overheid over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden voor ‘pas toe of leg uit’ en een lijst met aanbevolen open standaarden.
 Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten volgen. De basisset geo-standaarden staat op de ‘<a href='https://forumstandaardisatie.nl/open-standaarden/verplicht' target='_blank'>Pas toe of leg uit’ -standaarden lijst</a> van het Forum Standaardisatie. Organisatorisch bestaat er geen formele relatie tussen de Programmaraad en het Forum Standaardisatie. De Programmaraad van Geonovum stelt (versies van) geo-standaarden vast (voor zover dat niet in de governancestructuur van NEN of OGC gebeurt); het Forum Standaardisatie besluit uiteindelijk of die vastgestelde (versies van) geo-standaarden ook de status krijgen die behoort bij opname op de Pas toe of leg uit -standaarden lijst (de verplichting voor overheden om die standaarden uit te vragen bij aanbestedingen). 
 <br/>

@@ -80,7 +80,7 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <br/>
 <br/>
 <figure><img src='media/image1.jpeg' alt='Picture 5' style='width: 100%;'></img>
-<figcaption>Figuur 1 Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
+<figcaption>Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
 <br/>
 <br/>
 <b>Werkgroep en softwareleveranciers</b> 

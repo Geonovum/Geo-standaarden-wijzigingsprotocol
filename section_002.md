@@ -22,8 +22,8 @@ We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij
 <li><a href='https://definities.geostandaarden.nl/' target='_blank'>Conceptenbibliotheek</a></li>
 <li><a href='https://docs.geostandaarden.nl/' target='_blank'>Documenten register</a></li>
 <li><a href='https://modellen.geostandaarden.nl/' target='_blank'>Ontologieën register</a></li>
-</ul>
-<br/>
+</ul> 
+<br/> 
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
 <br/><br/>
 ### Nieuwe versie van de standaard {#48BAAD23}

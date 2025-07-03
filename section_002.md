@@ -10,11 +10,11 @@ Met behulp van een wijzigingsprotocol voor de basisset geo-standaarden geeft Geo
 <li>stabiliteit aan de standaard;</li>
 <li>continuïteit aan de standaard;</li>
 <li>een eenduidige aanpak.</li>
-</ul>
-<br/>
+</ul><br/>
 De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het jaarplan voor standaardisatie en innovatie. Hierin staan de activiteiten die wij uitvoeren om de interoperabiliteit binnen onze nationale geodata infrastructuur (NGII) te borgen en welke innovaties wij in dit kader verkennen.
 <br/>
-<br/>  
+<br/>
+
 ## Releasebeleid {#000486F9}
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie paragraaf 2.2.1) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
@@ -29,6 +29,7 @@ We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
 <br/>
 <br/>
+
 ### Nieuwe versie van de standaard {#48BAAD23}
 Elk product van onze standaarden is altijd voorzien van een versienummer. Bij het aanpassen van dat product, wijzigt het versienummer. De grootte van de wijzigingen (major, minor, patch ofwel X,Y,Z wijzigingen) heeft gevolg voor de implementatie van de standaard en wordt uitgedrukt in de  versienummering. Hierbij wordt de ‘Semantic Versioning’ (<a href='https://semver.org/lang/nl/' target='_blank'>SemVer</a>) methodiek aangehouden.
 <br/>
@@ -39,11 +40,13 @@ We hanteren drie typen versies voor een wijziging van een standaard. Bijvoorbeel
 <li><b>Z-wijzigingen </b>Dit zijn in feite oplossingen van technische fouten of verbeteringen van technische aard, alsmede tekstuele verbeteringen. Deze wijzigingen zijn backwards compatible.</li>
 </ul>
 <br/><br/>
+
 ### Consultatie  {#4AD37261}
 Met (door)ontwikkelen van een standaard leveren wij nieuwe versies van de producten van de standaard op. Doel van een consultatie is ons netwerk, de gebruikers van de standaard en de ketenpartners te raadplegen; wij vragen hen om advies, zodat de standaard zo goed mogelijk aansluit om de werkprocessen van de eindgebruikers van de standaarden. 
 De consultaties zijn openbaar/ publiek en daardoor mag iedereen reageren op de nieuwe versie. Consultaties duren minimaal 3 weken en maximaal 8 weken. Bekendmaking gebeurd via de Geonovum website door middel van een nieuwsbericht. We attenderen de gebruikers en de ketenpartners via onze nieuwsbrief de Geo-standaard (inschrijving daarvoor vindt plaats via de Geonovum website). 
 Wanneer en hoe lang een consultatie plaatst vindt, is afhankelijk van proces varianten bij wijzigingen <span style='background-color: yellow;'>(zie paragraaf 2.3</span>).
 <br/><br/>
+
 ### Oudere versie van een standaard {#3C90F7C6}
 De SemVer-methodiek schrijft backwards compatibility voor op het Y-niveau. Na het uitbrengen van een nieuwe versie van een bij Geonovum in beheer zijnde standaard blijven oudere versies beschikbaar en zijn vindbaar via de Geonovum website. Een nieuwe versie dwingt daarmee geen directe overstap af bij de gebruikers, tenzij anders (bijvoorbeeld wettelijk) bepaald. Na het uitbrengen van de nieuwe versie van een standaard wordt de ontwikkeling van de oude versie stop gezet.
 <br/>
@@ -54,6 +57,7 @@ Voor het onderhoud en de ondersteuning van een oude versie van een standaard gel
 <li>De duur van de ondersteuningsperiode voor de diverse soorten versies moet nog worden vastgesteld. In 2021 de periode voor inwerkingtreden van de Omgevingswet, zal naar verwachting de ondersteuningsperiode van verschillende versies anders zijn, dan in de periode van permanent beheer zonder dat daarnaast nog grootschalige ontwikkeling van de standaard plaatsvindt. </li>
 </ul>
 <br/>
+
 ## Proces varianten bij wijzigingen  {#207E4963}
 In paragraaf 2.2 zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
 <br/>
@@ -65,6 +69,7 @@ Deze vergen volledige afstemming en het doorlopen van alle in paragraaf 2.4 besc
 <b>Proces voor Z wijzigingen</b>
 Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase wordt door een medewerker van Geonovum gedaan. Toetsing vindt plaats door middel van een (beperkte) consultatie in het standaardenteam van Geonovum en met gebruikers en ketenpartners. Besluitvorming vindt plaats door het standaardenteam van Geonovum met een notificatie van de wijziging aan de Programmaraad. Implementatie vindt plaats door het publiceren van de wijziging op de website van Geonovum.
 <br/>
+
 ## Betrokkenen {#446369FA}
 De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzigingsproces van een geo-standaard:
 <ul><li>Werkgroep;</li>

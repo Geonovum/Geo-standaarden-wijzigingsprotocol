@@ -24,7 +24,7 @@ Status </p></td>
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='68AC53C9'>Deze status wordt gebruikt bij spamberichten in de helpdesk of bijvoorbeeld bij testberichten. </p></td>
 </tr>
 <tr><td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='32D46E13'>GEESCALEERD</p></td>
-<td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='1A8F9ACF'>Alleen in het geval de escalatieprocedure moet worden ingezet (zie paragraaf <a href='#'>7.3</a>) wordt deze status gebruikt. </p></td>
+<td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='1A8F9ACF'>Alleen in het geval de escalatieprocedure moet worden ingezet (zie <a href='#625AEBC6'>paragraaf 6.2</a>) wordt deze status gebruikt. </p></td>
 </tr>
 <tr><td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='3CCD6064'>GESLOTEN</p></td>
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='2DF7B199'>De melding is niet alleen opgelost maar kan ook worden afgesloten. </p></td>

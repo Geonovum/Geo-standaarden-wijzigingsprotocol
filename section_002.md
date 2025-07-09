@@ -75,7 +75,7 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <li>Forum Standaardisatie.</li>
 </ul><br/>
 
-<figure><img src='media/image1.jpeg' alt='Picture 5' style='width: 100%;'></img>
+<figure><img src='media/image1.jpeg' alt='De Programmaraad, het standaardenteam van Geonovum en het Regie-overleg geo-standaarden zijn betrokken bij het wijzigingsproces van een geo-standaard.' style='width: 100%;'></img>
 <figcaption>Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
 
 <b>Werkgroep en softwareleveranciers</b>: 

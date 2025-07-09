@@ -11,7 +11,7 @@ Concreet bestaat de basisset geo-standaarden uit:
 <li><a href='https://www.geonovum.nl/geo-standaarden/metadata' target='_blank'>Metadata-profielen voor geografie en webservices</a>; </li>
 <li><a href='https://www.geonovum.nl/geo-standaarden/ogc-apis' target='_blank'>OGC API Features</a>; </li>
 <li><a href='https://www.geonovum.nl/geo-standaarden/ogc-apis' target='_blank'>OGC API Tiles</a>. </li>
-</ul>
+</ul><br/>
 
 De basisset geo-standaarden staat op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>Pas toe of leg uit -standaarden lijst van het Forum Standaardisatie</a>. 
 

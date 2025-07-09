@@ -31,7 +31,7 @@ De actuele vigerende versies van de basisset geo-standaarden zijn beschikbaar vi
 <br/>
 <br/>
 <b>Consultatie</b>
-Bij X-wijzigingen zal Geonovum de aanpassingen in het model in een publieke consultatie aan eenieder voorleggen (zie paragraaf 2.2.2](#4AD37261)).
+Bij X-wijzigingen zal Geonovum de aanpassingen in het model in een publieke consultatie aan eenieder voorleggen (zie [paragraaf 2.2.2](#4AD37261)).
 <br/>
 <br/>
 <b>Werkafspraken</b>

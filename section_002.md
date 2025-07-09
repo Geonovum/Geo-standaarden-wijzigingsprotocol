@@ -20,10 +20,10 @@ Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe 
 <br/>
 <br/>
 We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij een release wordt de nieuwe versie van het product/ de bundel van producten opgeleverd en gepubliceerd van GitHub naar een van de volgende Geonovum publicatieservers. Welke publicatieserver is afhankelijk van het type product.  
-<ul><li><a href='http://register.geostandaarden.nl/' target='_blank'>Technisch register</a></li>
-<li><a href='https://definities.geostandaarden.nl/' target='_blank'>Conceptenbibliotheek</a></li>
-<li><a href='https://docs.geostandaarden.nl/' target='_blank'>Documenten register</a></li>
-<li><a href='https://modellen.geostandaarden.nl/' target='_blank'>Ontologieën register</a></li>
+<ul><li><a href='http://register.geostandaarden.nl/' target='_blank'>Technisch register</a>;</li>
+<li><a href='https://definities.geostandaarden.nl/' target='_blank'>Conceptenbibliotheek</a>;</li>
+<li><a href='https://docs.geostandaarden.nl/' target='_blank'>Documenten register</a>;</li>
+<li><a href='https://modellen.geostandaarden.nl/' target='_blank'>Ontologieën register</a>.</li>
 </ul><br/> 
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
 <br/>
@@ -83,7 +83,7 @@ Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum vo
 <br/>
 <br/>
 <b>Regie-overleg geo-standaarden</b> 
-Het Regie-overleg geo-standaarden richt zich op het borgen en vergroten van de samenhang tussen de standaarden in de set geo-standaarden. De set zoals die geplaatst is op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden/verplicht' target='_blank'>Pas toe of leg uit</a>’ -standaarden lijst van het Forum Standaardisatie en tussen domeinstandaarden, die gebaseerd zijn op het basismodel voor geo-informatie NEN 3610. 
+Het Regie-overleg geo-standaarden richt zich op het borgen en vergroten van de samenhang tussen de standaarden in de set geo-standaarden. De basisset geo-standaarden zoals die geplaatst is op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden/verplicht?trefwoord=182' target='_blank'>Pas toe of leg uit</a>’ -standaarden lijst van het Forum Standaardisatie en tussen domeinstandaarden, die gebaseerd zijn op het basismodel voor geo-informatie NEN 3610. 
 Het Regie-overleg geo-standaarden:
 <ul><li>is domein-overstijgend;</li>
 <li>is met beheerders van aanpalende standaarden;</li>
@@ -95,7 +95,7 @@ Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waar
 <br/>
 <br/>
 <b>Programmaraad</b> 
-Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen (zie [paragraaf 2.2.3](#3C90F7C6)) wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De Programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast. 
+Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie [paragraaf 2.2.3](#3C90F7C6) wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De Programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast. 
 <br/>
 <br/>
 <b>Forum Standaardisatie</b> 

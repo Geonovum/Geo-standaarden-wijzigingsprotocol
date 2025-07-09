@@ -1,4 +1,4 @@
-# Bijlage Overzicht status van wijzigingsverzoeken {#6C0DACDA}
+# Overzicht status van wijzigingsverzoeken {#6C0DACDA}
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 50%;'>
 <col id='col2' style='width: 50%;'>

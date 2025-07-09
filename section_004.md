@@ -3,16 +3,14 @@ Het toepassen van de een geo-standaard roept soms vragen op. Bij onduidelijkhede
 Als er een fout of probleem wordt geconstateerd, gaat er doorgaans altijd enige tijd overheen de fout of het probleem wordt hersteld in de nieuwe geo-standaard. Typische voorbeelden van dit soort fouten of problemen zijn in algemene zin:
 <ul><li>In de geo-standaard zijn bepaalde technische vrijheden mogelijk die op grond van een goede praktijk niet zouden moeten worden benut;</li>
 <li>In de geo-standaard is iets wel mogelijk, maar niet verplicht, terwijl dit wel sterk gewenst is.</li>
-</ul>
-<br/>
-<br/>
+</ul><br/>
+
 In dit soort gevallen zal het beheer na consultatie een werkafspraak publiceren over hoe in afwachting van de wijziging (een reparatie) van de geo-standaard moet worden omgegaan met een geconstateerde fout of probleem. Zo’n werkafspraak heeft de formele status van een advies van het beheer aan de gebruikers van de geo-standaard. De tussentijdse werkafspraak vervangt niet de in gebruik zijnde versie van geo-standaard (de vastgestelde versie), maar geldt wel als werkwijze in afwachting van de nieuwe versie van de geo-standaard (na reparatie).
 Voor bovengenoemde voorbeelden zouden de werkafspraken resp. als volgt kunnen zijn:
 <ul><li>Gebruik nooit de mogelijkheid A die de geo-standaard biedt;</li>
 <li>Doe het altijd op manier B.</li>
-</ul>
-<br/>
-<br/>
+</ul><br/>
+
 De status van deze werkafspraken is als volgt:
 <ol><li>De tussentijdse werkafspraken zijn van toepassing totdat de wijzigingen in werking zijn getreden, daarna zijn de werkafspraken niet meer van toepassing;</li>
 <li>Indien mogelijk zijn de werkafspraken altijd een directe voorloper van de wijzigingen, zelf die zullen worden doorgevoerd;</li>

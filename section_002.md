@@ -24,8 +24,7 @@ We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij
 <li><a href='https://definities.geostandaarden.nl/' target='_blank'>Conceptenbibliotheek</a></li>
 <li><a href='https://docs.geostandaarden.nl/' target='_blank'>Documenten register</a></li>
 <li><a href='https://modellen.geostandaarden.nl/' target='_blank'>Ontologieën register</a></li>
-</ul> 
-<br/> 
+</ul><br/> 
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
 <br/>
 
@@ -37,8 +36,7 @@ We hanteren drie typen versies voor een wijziging van een standaard. Bijvoorbeel
 <ul><li><b>X-wijzigingen </b>Dit zijn grote (major) wijzigingen van de standaard die niet backwards compatible zijn.</li>
 <li><b>Y-wijzigingen </b>Dit zijn wijzigingen die wel backwards compatible zijn.</li>
 <li><b>Z-wijzigingen </b>Dit zijn in feite oplossingen van technische fouten of verbeteringen van technische aard, alsmede tekstuele verbeteringen. Deze wijzigingen zijn backwards compatible.</li>
-</ul>
-<br/>
+</ul><br/>
 
 ### Consultatie  {#4AD37261}
 Met (door)ontwikkelen van een standaard leveren wij nieuwe versies van de producten van de standaard op. Doel van een consultatie is ons netwerk, de gebruikers van de standaard en de ketenpartners te raadplegen; wij vragen hen om advies, zodat de standaard zo goed mogelijk aansluit om de werkprocessen van de eindgebruikers van de standaarden. 
@@ -54,15 +52,14 @@ Voor het onderhoud en de ondersteuning van een oude versie van een standaard gel
 <ul><li>Aan een oude versie worden geen nieuwe features toegevoegd, geen aanpassingen gedaan op X en Y niveau na het uitbrengen van een nieuwe versie. Verzoeken om aanpassing en wijziging voor nieuwe functionaliteit worden niet meer voor de oude standaard in behandeling genomen maar doorgegeven aan het ontwikkelteam. Correcties (Z-wijzigingen) worden wel uitgevoerd op de vorige versies zolang deze nog ondersteund worden.</li>
 <li>Bij oplevering van een nieuwe versie wordt de voorgaande versie nog een vooraf vastgestelde periode ondersteund. De duur van de overgangsperiode wordt mede bepaald door de omvang van de wijzigingen (X, Y en Z wijzigingen op de vorige versies), de staat van ontwikkeling van de standaard, en of de standaard in voorlopig dan wel permanent beheer is.</li>
 <li>De duur van de ondersteuningsperiode voor de diverse soorten versies moet nog worden vastgesteld. In 2021 de periode voor inwerkingtreden van de Omgevingswet, zal naar verwachting de ondersteuningsperiode van verschillende versies anders zijn, dan in de periode van permanent beheer zonder dat daarnaast nog grootschalige ontwikkeling van de standaard plaatsvindt.</li>
-</ul>
-<br/>
+</ul><br/>
 
 ## Proces varianten bij wijzigingen  {#207E4963}
 In [paragraaf 2.2](#000486F9) zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
 <br/>
 <br/>
 <b>Proces voor X en Y wijzigingen</b> 
-Deze vergen volledige afstemming en het doorlopen van alle in paragraaf 2.4 beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke gebruikers en ketenpartners van de betreffende standaard. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Nadat het Regie-overleg geo-standaarden is gevraagd te adviseren over de wijziging, vindt besluitvorming over vaststelling van de geo-standaard plaats in de Programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
+Deze vergen volledige afstemming en het doorlopen van alle in [paragraaf 2.4](#446369FA) beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke gebruikers en ketenpartners van de betreffende standaard. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Nadat het Regie-overleg geo-standaarden is gevraagd te adviseren over de wijziging, vindt besluitvorming over vaststelling van de geo-standaard plaats in de Programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
 <br/>
 <br/>
 <b>Proces voor Z wijzigingen</b> 
@@ -76,13 +73,11 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <li>Regie-overleg geo-standaarden </li>
 <li>Programmaraad van Geonovum;</li>
 <li>Forum Standaardisatie.</li>
-</ul>
-<br/>
-<br/>
+</ul><br/>
+
 <figure><img src='media/image1.jpeg' alt='Picture 5' style='width: 100%;'></img>
 <figcaption>Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
-<br/>
-<br/>
+
 <b>Werkgroep en softwareleveranciers</b> 
 Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
 <br/>
@@ -94,8 +89,7 @@ Het Regie-overleg geo-standaarden:
 <li>is met beheerders van aanpalende standaarden;</li>
 <li>is tactisch op de inhoud om de verbinding met de geo-standaarden te leggen;</li>
 <li>is aanvullend op/ aan de bestaande gremia.</li>
-</ul>
-<br/>
+</ul><br/>
 Het Regie-overleg geo-standaarden gaat nadrukkelijk niet over de governance van domeinstandaarden. Wanneer vanuit samenhang de behoefte aan besluitvorming ontstaat bij een individuele domeinstandaard, dan brengt de beheerder dit in de governance van de domeinstandaard in.
 Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waarbij de focus ligt op het ondersteunen van verbindingen tussen verschillende partijen op het gebied van geo-standaarden. Het overleg heeft een informerende, signalerende en adviserende functie ten opzichte van de Programmaraad, maar neemt zelf geen besluiten – de Programmaraad van Geonovum besluit. 
 <br/>

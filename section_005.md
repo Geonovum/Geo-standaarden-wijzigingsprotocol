@@ -26,17 +26,17 @@ Opleiding en advies kunnen van toegevoegde waarde zijn bij de ondersteuning van 
 Het hele wijzigingsproces staat of valt met een goede communicatie. Onder goede communicatie wordt verstaan het tijdig leveren van de juiste informatie aan de juiste belanghebbenden. Dit betreft zowel de proceskant alsook de producten die er worden opgeleverd.
 <br/>
 <br/>
-<b>Website(s)</b>
+<b>Website(s)</b>:
 De actuele vigerende versies van de basisset geo-standaarden zijn beschikbaar via de publicatieservers (zie [paragraaf 2.2](#000486F9)) en te vinden en raadpleegbaar via de Geonovum website. 
 <br/>
 <br/>
-<b>Consultatie</b>
+<b>Consultatie</b>:
 Bij X-wijzigingen zal Geonovum de aanpassingen in het model in een publieke consultatie aan eenieder voorleggen (zie [paragraaf 2.2.2](#4AD37261)).
 <br/>
 <br/>
-<b>Werkafspraken</b>
+<b>Werkafspraken</b>:
 De werkafspraken bepalen hoe er in de tussentijd moet worden omgegaan met geconstateerde fouten en problemen (zie [Hoofdstuk 4](#572CC78A)). De werkafspraken publiceren wij via de Geonovum website. Door middel van nieuwsberichten op de website en het versturen van de nieuwsbrief De Geo-standaard informeren wij het werkveld over de nieuwe dan wel aangepaste werkafspraak.
 <br/>
 <br/>
-<b>Nieuwe producten inclusief </b><b>releasenotes</b> 
+<b>Nieuwe producten inclusief releasenotes</b>: 
 In de releasenotes bij de geo-standaard beschrijven wij de wijzigingen in de geo-standaard. De relasenotes worden in de bijlage van de nieuwe versie van de geo-standaarden opgenomen. 

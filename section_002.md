@@ -58,11 +58,11 @@ Voor het onderhoud en de ondersteuning van een oude versie van een standaard gel
 In [paragraaf 2.2](#000486F9) zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
 <br/>
 <br/>
-<b>Proces voor X en Y wijzigingen</b> 
+<b>Proces voor X en Y wijzigingen</b>: 
 Deze vergen volledige afstemming en het doorlopen van alle in [paragraaf 2.4](#446369FA) beschreven fasen: Inhoud, Toetsing, Besluitvorming en Implementatie. Voor de inhoudelijke fase wordt een werkgroep gestart met daarin vertegenwoordiging van belangrijke gebruikers en ketenpartners van de betreffende standaard. Het resultaat van de werkgroep wordt in een openbare consultatie getoetst. Nadat het Regie-overleg geo-standaarden is gevraagd te adviseren over de wijziging, vindt besluitvorming over vaststelling van de geo-standaard plaats in de Programmaraad van Geonovum. Indien nodig wordt met softwareleveranciers een convenant afgesloten of een bestaand convenant uitgebreid, waarin wordt afgesproken dat zij (onderdelen van) de standaard gaan ondersteunen.
 <br/>
 <br/>
-<b>Proces voor Z wijzigingen</b> 
+<b>Proces voor Z wijzigingen</b>: 
 Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase wordt door een medewerker van Geonovum gedaan. Toetsing vindt plaats door middel van een (beperkte) consultatie in het standaardenteam van Geonovum en met gebruikers en ketenpartners. Besluitvorming vindt plaats door het standaardenteam van Geonovum met een notificatie van de wijziging aan de Programmaraad. Implementatie vindt plaats door het publiceren van de wijziging op de website van Geonovum.
 <br/>
 
@@ -78,11 +78,11 @@ De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzi
 <figure><img src='media/image1.jpeg' alt='Picture 5' style='width: 100%;'></img>
 <figcaption>Regie-overleg geo-standaarden rol bij wijzigingen van geo-standaarden</figcaption></figure>
 
-<b>Werkgroep en softwareleveranciers</b> 
+<b>Werkgroep en softwareleveranciers</b>: 
 Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
 <br/>
 <br/>
-<b>Regie-overleg geo-standaarden</b> 
+<b>Regie-overleg geo-standaarden</b>: 
 Het Regie-overleg geo-standaarden richt zich op het borgen en vergroten van de samenhang tussen de standaarden in de set geo-standaarden. De basisset geo-standaarden zoals die geplaatst is op de ‘<a href='https://www.forumstandaardisatie.nl/open-standaarden/verplicht?trefwoord=182' target='_blank'>Pas toe of leg uit</a>’ -standaarden lijst van het Forum Standaardisatie en tussen domeinstandaarden, die gebaseerd zijn op het basismodel voor geo-informatie NEN 3610. 
 Het Regie-overleg geo-standaarden:
 <ul><li>is domein-overstijgend;</li>
@@ -94,11 +94,11 @@ Het Regie-overleg geo-standaarden gaat nadrukkelijk niet over de governance van 
 Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waarbij de focus ligt op het ondersteunen van verbindingen tussen verschillende partijen op het gebied van geo-standaarden. Het overleg heeft een informerende, signalerende en adviserende functie ten opzichte van de Programmaraad, maar neemt zelf geen besluiten – de Programmaraad van Geonovum besluit. 
 <br/>
 <br/>
-<b>Programmaraad</b> 
+<b>Programmaraad</b>: 
 Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href='#3C90F7C6'>paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De Programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast. 
 <br/>
 <br/>
-<b>Forum Standaardisatie</b> 
+<b>Forum Standaardisatie</b>: 
 Het Forum Standaardisatie adviseert de Nederlandse overheid over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden voor ‘pas toe of leg uit’ en een lijst met aanbevolen open standaarden.
 Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten volgen. De basisset geo-standaarden staat op de ‘<a href='https://forumstandaardisatie.nl/open-standaarden/verplicht' target='_blank'>Pas toe of leg uit’ -standaarden lijst</a> van het Forum Standaardisatie. Organisatorisch bestaat er geen formele relatie tussen de Programmaraad en het Forum Standaardisatie. De Programmaraad van Geonovum stelt (versies van) geo-standaarden vast (voor zover dat niet in de governancestructuur van NEN of OGC gebeurt); het Forum Standaardisatie besluit uiteindelijk of die vastgestelde (versies van) geo-standaarden ook de status krijgen die behoort bij opname op de Pas toe of leg uit -standaarden lijst (de verplichting voor overheden om die standaarden uit te vragen bij aanbestedingen). 
 <br/>

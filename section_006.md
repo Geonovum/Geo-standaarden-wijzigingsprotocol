@@ -6,23 +6,23 @@ De escalatieprocedure wordt niet gebruikt om reguliere wijzigingen sneller door 
 Er wordt geen vast proces gegeven om de escalatieprocedure te doorlopen, omdat verschillende situaties wellicht tot een verschillende wijze van handelen moeten leiden. In plaats daarvan zijn onderstaande sturende principes leidend om verantwoordelijkheden bij escalatie te duiden.
 <br/>
 <br/>
-<b>Signalering</b> 
+<b>Signalering</b>: 
 Uit het werkveld kunnen signalen ontstaan dat er met spoed iets gewijzigd zou moeten worden. Het is vooraf niet aan te geven uit welke kanalen deze geluiden zullen ontstaan. Het is wel van belang om de rol van Geonovum te onderkennen als antennefunctie voor het werkveld. In ieder geval zullen deze signalen op enig moment Geonovum bereiken, en op dat moment zal er overleg gevoerd worden over deze signalen. 
 <br/>
 <br/>
-<b>Overleg</b> 
+<b>Overleg</b>: 
 Bij de besluitvorming binnen de escalatieprocedure wordt er in principe overleg gevoerd tussen de Programmaraad en Geonovum (standaardenteam). Beide partijen raadplegen de betrokkenen daar waar nodig.
 <br/>
 <br/>
-<b>Besluitvorming</b> 
+<b>Besluitvorming</b>: 
 De beoordeling of de escalatieprocedure van toepassing is, wordt genomen door de voorzitter van Programmaraad van Geonovum. Ook het besluit <i>welke</i> wijzigingen er precies doorgevoerd moeten worden en op welke manier, wordt genomen door de voorzitter van Programmaraad.
 <br/>
 <br/>
-<b>Coördinatie</b> 
+<b>Coördinatie</b>: 
 De coördinatie tijdens de escalatieprocedure wordt uitgevoerd door de voorzitter van Programmaraad van Geonovum. 
 <br/>
 <br/>
-<b>Communicatie met het werkveld</b> 
+<b>Communicatie met het werkveld</b>: 
 De communicatie met het werkveld wordt uitgevoerd door Geonovum. Als beheerder van de basisset geo-standaarden wordt verwacht dat Geonovum het meest directe contacten heeft met het werkveld.
 <br/>
 

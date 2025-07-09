@@ -12,19 +12,19 @@ Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvormi
 <figure><img src='media/image2.png' alt='Fasen wijzigingsproces' style='width: 34.85707672723064%;'></img>
 <figcaption>Fasen wijzigingsproces</figcaption></figure>
 
-<b>Inhoud</b> 
+<b>Inhoud</b>: 
 In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd met behulp van GitHub of een andere issue tracker en is zichtbaar via de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 
 <br/>
 <br/>
-<b>Toetsing</b> 
+<b>Toetsing</b>: 
 De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implementatie. In deze fase wordt eenieder (X, Y wijziging) of een beperkte groep belanghebbenden (Z wijziging) uitgenodigd om zijn visie te geven op de nieuwe versie van de standaard. De reacties uit de consultatie worden verwerkt in de specificatie. In het geval van een X of Y wijziging wordt de nieuw voorgestelde versie voorgelegd aan het Regie-overleg met het verzoek advies uit te brengen aan de Programmaraad van Geonovum (zie [paragraaf 3.2](#21D2F6BA)). 
 <br/>
 <br/>
-<b>Besluitvorming</b> 
+<b>Besluitvorming</b>: 
 Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie [paragraaf 2.3](#207E4963)) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href='https://forumstandaardisatie.nl' target='_blank'>Forum Standaardisatie</a>.
 <br/>
 <br/>
-<b>Implementatie</b> 
+<b>Implementatie</b>: 
 Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze fase. Hiervoor leveren we verschillende technische bestanden op, zoals implementatiebestanden, voorbeeldbestanden en voorbeeldberichten. Deze bestanden ondersteunen softwareleveranciers en gebruikers van de geo-standaard bij de implementatie van de standaard in hun software. Beheerders van de voorziening/ het register e.d. nemen de geo-standaard over. Daarnaast stelt Geonovum validators beschikbaar, waarmee de technische juistheid van de implementatie van standaarden kan worden getoetst. Wij ondersteunen de implementatie bovendien door de werking van de geo-standaard toe te lichten op bijvoorbeeld een wiki. Resultaat van deze fase is dat de gebruikers data kunnen maken en uitwisselen conform de nieuwe standaard. In [hoofdstuk 5](#6BEFD657) wordt dit verder toegelicht.
 <br/>
 

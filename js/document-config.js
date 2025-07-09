@@ -1,7 +1,7 @@
 var documentConfig =
 {
   title: "Wijzigingsprotocol geo-standaarden",
-  shortName: "gsw",
+  shortName: "",
   pubDomain: "gsw",
   specStatus: "wv",
   specType: "bd",

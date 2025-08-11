@@ -1,6 +1,6 @@
 # Tussentijdse werkafspraken {#572CC78A}
-Het toepassen van de een geo-standaard roept soms vragen op. Bij onduidelijkheden, discrepanties of fouten in de standaard kunnen in de praktijk vragen ontstaan over hoe de standaard – in afwachting van een formele wijziging– toe te passen. Met name bij een X wijziging van de standaard, die een grote impact op toepassing in de praktijk heeft, zullen geconstateerde fouten of gewenste wijzigingen in de regel niet heel snel worden doorgevoerd. Een tussentijds gebruiksadvies wordt dan opgesteld in de vorm van een <i>tussentijdse werkafspraak</i>. In dit hoofdstuk wordt het maken van werkafspraken toegelicht.
-Als er een fout of probleem wordt geconstateerd, gaat er doorgaans altijd enige tijd overheen de fout of het probleem wordt hersteld in de nieuwe geo-standaard. Typische voorbeelden van dit soort fouten of problemen zijn in algemene zin:
+Het toepassen van een geo-standaard roept soms vragen op. Bij onduidelijkheden, discrepanties of fouten in de standaard kunnen in de praktijk vragen ontstaan over hoe de standaard – in afwachting van een formele wijziging– toe te passen. Met name bij een X wijziging van de standaard, die een grote impact op toepassing in de praktijk heeft, zullen geconstateerde fouten of gewenste wijzigingen in de regel niet heel snel worden doorgevoerd. Een tussentijds gebruiksadvies wordt dan opgesteld in de vorm van een <i>tussentijdse werkafspraak</i>. In dit hoofdstuk wordt het maken van werkafspraken toegelicht.
+Als er een fout of probleem wordt geconstateerd, gaat er doorgaans altijd enige tijd overheen voordat de fout of het probleem wordt hersteld in de nieuwe geo-standaard. Typische voorbeelden van dit soort fouten of problemen zijn in algemene zin:
 <ul><li>In de geo-standaard zijn bepaalde technische vrijheden mogelijk die op grond van een goede praktijk niet zouden moeten worden benut;</li>
 <li>In de geo-standaard is iets wel mogelijk, maar niet verplicht, terwijl dit wel sterk gewenst is.</li>
 </ul><br/>
@@ -13,7 +13,7 @@ Voor bovengenoemde voorbeelden zouden de werkafspraken resp. als volgt kunnen zi
 
 De status van deze werkafspraken is als volgt:
 <ol><li>De tussentijdse werkafspraken zijn van toepassing totdat de wijzigingen in werking zijn getreden, daarna zijn de werkafspraken niet meer van toepassing;</li>
-<li>Indien mogelijk zijn de werkafspraken altijd een directe voorloper van de wijzigingen, zelf die zullen worden doorgevoerd;</li>
+<li>Indien mogelijk zijn de werkafspraken altijd een directe voorloper van de wijzigingen zelf die zullen worden doorgevoerd;</li>
 <li>Binnen het wijzigingsbeheer worden alleen werkafspraken gemaakt, die vooruitlopen op daadwerkelijk aanstaande wijzigingen. Er worden binnen dit kader geen permanente werkafspraken gemaakt die niet verankerd zullen worden in de geo-standaard;</li>
 <li>Het toepassen van de werkafspraken is (van rechtswege) niet verplicht, maar geeft duidelijkheid en richting bij implementatie door softwareleveranciers;</li>
 <li>Het toepassen van de werkafspraken vergemakkelijkt de implementatie van wijzigingen, omdat het een al een voorbereidende werkwijze is voor het ander;</li>

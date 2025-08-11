@@ -1,5 +1,5 @@
 # Implementatie ondersteuning {#6BEFD657}
-<b>Het in gebruik nemen van (een volgende versie van ) een geo-standaard staat centraal in deze fase. Hiervoor leveren we de verschillende implementatiebestanden op. Wij ondersteunen de implementatie met onder meer een helpdesk, en validator.</b>
+<b>Het in gebruik nemen van (een volgende versie van ) een geo-standaard staat centraal in deze fase. Hiervoor leveren we de verschillende implementatiebestanden op. Wij ondersteunen de implementatie met onder meer een helpdesk en een validator.</b>
 ## Technische bestanden {#4B0AA488}
 Om softwareleveranciers en gebruikers te ondersteunen bij de implementatie van een nieuwe versie van de geo-standaard, leveren wij afhankelijk van de behoefte in de praktijk verschillende bestanden en documentatie op:
 <br/>
@@ -13,7 +13,7 @@ Voorbeeldbestanden en voorbeeldberichten kunnen worden gebruikt voor het testen 
 <br/>
 
 ## Validatie en certificatie {#7256DB88}
-Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers, beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De validator is het hulpmiddel bij uitstek hierbij.
+Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers en beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De validator is het hulpmiddel bij uitstek hierbij.
 Soms zetten we conformiteitstoetsing in zoals bij NEN 3610. In dat geval wordt een testprotocol voor een conformiteitstoets beschikbaar gesteld, waarmee (handmatig) kan worden gecontroleerd of een implementatie aan de norm voldoet.
 Ook certificering van applicaties is mogelijk. Certificering van applicaties ondersteunt niet zozeer de (kwaliteit van de) implementatie van de standaarden, als wel de (snelheid van) adoptie ervan. Zodra het werkveld voldoende volwassen is en certificering niet meer nodig is om adoptie te versnellen, kan certificering komen te vervallen.
 <br/>

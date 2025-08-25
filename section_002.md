@@ -16,8 +16,7 @@ De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het 
 <br/>
 
 ## Releasebeleid {#000486F9}
-In deze paragraaf gaan we in op het releasebeleid van Geonovum. Dit beleid passen wij toe op de basisset geo-standaarden die in beheer is bij Geonovum. Concreet gaat het om het releasebeleid voor Metadata-profielen voor geografie en webservices. De andere
-standaarden van de basisset geo-standaarden worden door OGC beheerd en geldt het <a href='https://docs.ogc.org/pol/05-020r29/05-020r29.html' target='_blank'>beleid en procedures van de Technische Commissie van de OGC</a>. 
+In deze paragraaf gaan we in op het releasebeleid van Geonovum. Dit beleid passen wij toe op de basisset geo-standaarden die in beheer is bij Geonovum. Concreet gaat het om het releasebeleid voor de Metadata-profielen voor geografie en webservices. De  geo-standaarden nieuwe versies van GML, GeoPackage, OGC API Features of OGC API Tiles worden door OGC beheerd en geldt het <a href='https://docs.ogc.org/pol/05-020r29/05-020r29.html' target='_blank'>beleid en procedures van de Technische Commissie van de OGC</a>. Voor het Basismodel Geo-informatie (NEN 3610) geldt dat de Programmaraad  de nieuwe versie van NEN 3610 niet vaststelt, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast.
 <br/>
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie [paragraaf 2.2.1](#48BAAD23)) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
@@ -98,7 +97,7 @@ Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waar
 <br/>
 <br/>
 <b>Programmaraad</b>: 
-Bij het vaststellen van een nieuwe versie (X, Y) van een standaard stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href='#3C90F7C6'>paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). De Programmaraad stelt de nieuwe versie van NEN 3610 niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast. 
+Bij het vaststellen van een nieuwe versie (X, Y) van de Metadata-profielen voor geografie en webservices stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href='#3C90F7C6'>paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum.  
 <br/>
 <br/>
 <b>Forum Standaardisatie</b>: 

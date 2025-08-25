@@ -16,6 +16,9 @@ De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het 
 <br/>
 
 ## Releasebeleid {#000486F9}
+In deze paragraaf gaan we in op het releasebeleid van Geonovum. Dit beleid passen wij toe op de basisset geo-standaarden die in beheer is bij Geonovum. Concreet gaat het om het releasebeleid voor Metadata-profielen voor geografie en webservices. De andere
+standaarden van de basisset geo-standaarden worden door OGC beheerd en geldt het <a href='https://docs.ogc.org/pol/05-020r29/05-020r29.html' target='_blank'>beleid en procedures van de Technische Commissie van de OGC</a>. 
+<br/>
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product is voorzien een nieuw versienummer conform X.Y.Z schrijfwijze (zie [paragraaf 2.2.1](#48BAAD23)) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br/>
 <br/>

@@ -27,11 +27,11 @@ Het hele wijzigingsproces staat of valt met een goede communicatie. Onder goede 
 <br/>
 <br/>
 <b>Website(s)</b>:
-De actuele vigerende versies van de basisset geo-standaarden zijn beschikbaar via de publicatieservers (zie [paragraaf 2.2](#000486F9)) en te vinden en raadpleegbaar via de Geonovum website. 
+De actuele vigerende versies van de basisset geo-standaarden zijn beschikbaar en raadpleegbaar via de Geonovum website. 
 <br/>
 <br/>
 <b>Consultatie</b>:
-Bij X-wijzigingen zal Geonovum de aanpassingen in het model in een publieke consultatie aan eenieder voorleggen (zie [paragraaf 2.2.2](#4AD37261)).
+Bij X-wijzigingen van de Metadata-profielen voor geografie en webservices zal Geonovum de aanpassingen in het model in een publieke consultatie aan eenieder voorleggen (zie [paragraaf 2.2.2](#4AD37261)). In het geval van GML, GeoPackage, OGC API Features en OGC API Tiles doet OGC een consultatie. Geonovum attendeert in dat geval het Nederlandse werkveld via de Geonovum website. 
 <br/>
 <br/>
 <b>Werkafspraken</b>:

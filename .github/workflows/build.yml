@@ -100,12 +100,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Verplaats PDFs naar root (optioneel)
-          if [[ "${{ steps.config.outputs.grep }}" == "true" ]] && ls static/*.pdf 1>/dev/null 2>&1; then
-            mv static/*.pdf .
-          fi
-
-          git add snapshot.html *.pdf $CHECK_DIR/*.txt
+          git add snapshot.html $CHECK_DIR/*.txt
           git commit -m "Snapshot + checks gegenereerd" || echo "No changes to commit"
           git push --force-with-lease origin HEAD:main
 

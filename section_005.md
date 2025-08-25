@@ -13,7 +13,7 @@ Voorbeeldbestanden en voorbeeldberichten kunnen worden gebruikt voor het testen 
 <br/>
 
 ## Validatie en certificatie {#7256DB88}
-Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers en beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De validator is het hulpmiddel bij uitstek hierbij.
+Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers en beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De linter of validator is het hulpmiddel bij uitstek hierbij. Geonovum biedt waar dit wenselijk is linters of validators aan waarmee ontwikkelaars tijdens het schrijven van hun code, danwel achteraf, kunnen controleren of hun software voldoet aan de standaarden.
 Soms zetten we conformiteitstoetsing in zoals bij NEN 3610. In dat geval wordt een testprotocol voor een conformiteitstoets beschikbaar gesteld, waarmee (handmatig) kan worden gecontroleerd of een implementatie aan de norm voldoet.
 Ook certificering van applicaties is mogelijk. Certificering van applicaties ondersteunt niet zozeer de (kwaliteit van de) implementatie van de standaarden, als wel de (snelheid van) adoptie ervan. Zodra het werkveld voldoende volwassen is en certificering niet meer nodig is om adoptie te versnellen, kan certificering komen te vervallen.
 <br/>

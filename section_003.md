@@ -9,8 +9,8 @@ De aanleiding voor een wijzigingsproces is gebaseerd op meldingen: de wensen en 
 Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie, zoals weergegeven in onderstaand figuur. 
 <br/>
 <br/>
-<figure><img src='media/image2.png' alt='De fasen in het wijzigingsproces zijn achtereenvolgens inhoud, toetsing, besluitvorming en implementatie.' style='width: 34.85707672723064%;'></img>
-<figcaption>Fasen wijzigingsproces</figcaption></figure>
+<figure><img src='media/image3.jpeg' alt='Bij het wijzigingsproces van een geo-standaard betrekt het standaardenteam van Geonovum werkgroepen en softwareleveranciers.' style='width: 100%;'></img>
+<figcaption>Wijzigingen doorvoeren in de geo-standaarden</figcaption></figure>
 
 <b>Inhoud</b>: 
 In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd met behulp van GitHub of een andere issue tracker en is zichtbaar via de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 
@@ -35,6 +35,4 @@ In figuur 3 ‘Wijzigingen doorvoeren in de geo-standaarden’ is het proces voo
 <br/>
 Bij het vaststellen van een nieuwe versie van een standaard stelt de Programmaraad met advies van Geonovum vast hoelang een oude versie van de geo-standaard wordt ondersteund en wanneer een oude versie komt te vervallen. Een uitzondering hierop is het Basismodel Geo-informatie (NEN 3610). Ook nieuwe versies van deze standaard bereidt Geonovum voor in samenwerking met werkgroepen. De programmaraad stelt de nieuwe versie niet vast, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de <a href='https://www.nen.nl/normcommissie-geo-informatie' target='_blank'>NEN normcommissie 351 240 Geo-informatie</a>. Deze commissie verzorgt de openbare consultatie en stelt de standaard formeel vast. De Programmaraad beslist, op advies van Geonovum, of zij een vastgestelde standaard voordraagt voor opname op de ‘Pas toe of leg uit’ -standaarden lijst van het Forum Standaardisatie. Bij een positief besluit verzorgt Geonovum de voordracht bij het Forum Standaardisatie. Organisatorisch bestaat er geen formele relatie tussen de Programmaraad en het Forum Standaardisatie, inhoudelijk dus wel.
 <br/>
-<br/>
-<figure><img src='media/image3.jpeg' alt='Bij het wijzigingsproces van een geo-standaard betrekt het standaardenteam van Geonovum werkgroepen en softwareleveranciers.' style='width: 100%;'></img>
-<figcaption>Wijzigingen doorvoeren in de geo-standaarden</figcaption></figure>
+

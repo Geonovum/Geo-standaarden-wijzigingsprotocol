@@ -9,7 +9,7 @@ De aanleiding voor een wijzigingsproces is gebaseerd op meldingen: de wensen en 
 Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie, zoals weergegeven in onderstaand figuur. 
 <br/>
 <br/>
-<figure><img src='media/image2.png' alt='Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie.' style='width: 100%;'></img>
+<figure><img src='media/image2.png' alt='Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie.' style='width: 50%;'></img>
 <figcaption>Fasen wijzigingsproces</figcaption></figure>
 
 <b>Inhoud</b>: 

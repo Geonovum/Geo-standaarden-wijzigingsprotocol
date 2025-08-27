@@ -70,18 +70,20 @@ Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase word
 
 ## Betrokkenen {#446369FA}
 De volgende groepen van gebruikers en ketenpartners zijn betrokken bij het wijzigingsproces van een geo-standaard:
-<ul><li>Werkgroep;</li>
-<li>Softwareleveranciers;</li>
-<li>Regie-overleg geo-standaarden </li>
+<ul>
 <li>Programmaraad van Geonovum;</li>
+<li>Regie-overleg geo-standaarden;</li>
+<li>Werkgroepen;</li>
+<li>Standaardenteam;</li>
+<li>Softwareleveranciers;</li>
 <li>Forum Standaardisatie.</li>
 </ul><br/>
 
 <figure><img src='media/image3.jpeg' alt='De Programmaraad, het standaardenteam van Geonovum, het Regie-overleg geo-standaarden, werkgroepen en softwareleveranciers zijn betrokken bij het wijzigingsproces van een geo-standaard.B' style='width: 100%;'></img>
 <figcaption>Betrokkenen bij wijzigingen van geo-standaarden</figcaption></figure>
 
-<b>Werkgroep en softwareleveranciers</b>: 
-Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
+<b>Programmaraad</b>: 
+Bij het vaststellen van een nieuwe versie (X, Y) van de Metadata-profielen voor geografie en webservices stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href='#3C90F7C6'>paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum.  
 <br/>
 <br/>
 <b>Regie-overleg geo-standaarden</b>: 
@@ -96,8 +98,12 @@ Het Regie-overleg geo-standaarden gaat nadrukkelijk niet over de governance van 
 Het Regie-overleg geo-standaarden heeft voornamelijk een faciliterende rol, waarbij de focus ligt op het ondersteunen van verbindingen tussen verschillende partijen op het gebied van geo-standaarden. Het overleg heeft een informerende, signalerende en adviserende functie ten opzichte van de Programmaraad, maar neemt zelf geen besluiten – de Programmaraad van Geonovum besluit. 
 <br/>
 <br/>
-<b>Programmaraad</b>: 
-Bij het vaststellen van een nieuwe versie (X, Y) van de Metadata-profielen voor geografie en webservices stelt de <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href='#3C90F7C6'>paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum.  
+<b>Standaardenteam</b>:
+Het beheer en de doorontwikkeling van de set geo-standaarden is een basistaak van Geonovum en is belegd in basisprogramma Standaardisatie & Innovatie. Het standaardenteam is het team van adviseurs dat samen met de werkgroep(en) werkt aan de nieuwe versie van de geo-standaard. 
+<br/>
+<br/>
+<b>Werkgroep en softwareleveranciers</b>: 
+Nieuwe versies van een geo-standaard bereidt het standaardenteam van Geonovum voor in samenwerking met de werkgroep(en) met daarin gebruikers en/of softwareleveranciers. We streven naar een unanieme instemming met de standaard. Dit versterkt het draagvlak en zorgt voor een betere implementatie van de geo-standaard in het werkveld. 
 <br/>
 <br/>
 <b>Forum Standaardisatie</b>: 

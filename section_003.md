@@ -9,8 +9,8 @@ De aanleiding voor een wijzigingsproces is gebaseerd op meldingen: de wensen en 
 Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie, zoals weergegeven in onderstaand figuur. 
 <br/>
 <br/>
-<figure><img src='media/image3.jpeg' alt='Bij het wijzigingsproces van een geo-standaard betrekt het standaardenteam van Geonovum werkgroepen en softwareleveranciers.' style='width: 100%;'></img>
-<figcaption>Wijzigingen doorvoeren in de geo-standaarden</figcaption></figure>
+<figure><img src='media/image2.png' alt='Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie.' style='width: 100%;'></img>
+<figcaption>Fasen wijzigingsproces</figcaption></figure>
 
 <b>Inhoud</b>: 
 In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd met behulp van GitHub of een andere issue tracker en is zichtbaar via de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 

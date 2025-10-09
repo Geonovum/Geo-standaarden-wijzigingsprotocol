@@ -3,8 +3,8 @@ let respecConfig = {
   useLabel: true,
   title: "Wijzigingsprotocol geo-standaarden",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
-  //specStatus: "cv",               // Consultatieversie
+  //specStatus: "wv",                   // Werkversie
+  specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
@@ -22,23 +22,17 @@ let respecConfig = {
 
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2025-07-09",
+  publishDate: "2025-10-09",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
-  publishVersion: [],
-  //publishVersion: "0.0.2",
-  //previousVersion: "0.0.1",
+  publishVersion: "2.0.0",
+  previousVersion: "1.1.0",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2021-10-19",
+  previousPublishDate: "2019-07-02",
   previousMaturity: "def",
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: [
-    {
-      name: "Dick Krijtenburg",
-      company: "Geonovum",
-      companyURL: "https://www.geonovum.nl/"
-    },
-    {
+       {
       name: "Monique van Scherpenzeel",
       company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"

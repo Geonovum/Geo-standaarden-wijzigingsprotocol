@@ -13,7 +13,7 @@ let respecConfig = {
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   //-- TODO: vul pubDomain in
-  pubDomain: "gsw",
+  pubDomain: "geo-standaarden",
   license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   shortName: "gsw",
   
@@ -27,8 +27,15 @@ let respecConfig = {
   publishVersion: "2.0.0",
   previousVersion: "1.1.0",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2019-07-02",
-  previousMaturity: "def",
+  // WQ: 2025-10-10:De volgende twee regels zijn eenmalig uigecommentaard omdat de previous
+  // moet verwijzen naar een andere pubdomain. Bij volgende versie dit weer op de normale
+  // manier doen
+  //previousPublishDate: "2019-07-02",
+  //previousMaturity: "def",
+  previousPublishDate: null ,
+  previousMaturity: null,
+  prevVersion: ["https://docs.geostandaarden.nl/gsw/def-bd-gsw-20190702"],
+
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: [

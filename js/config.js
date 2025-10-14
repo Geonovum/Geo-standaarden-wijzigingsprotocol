@@ -34,7 +34,7 @@ let respecConfig = {
   //previousMaturity: "def",
   previousPublishDate: null ,
   previousMaturity: null,
-  prevVersion: ["https://docs.geostandaarden.nl/gsw/def-bd-gsw-20190702"],
+  prevVersion: ["https://docs.geostandaarden.nl/gsw/def-bd-gsw-20211019/"],
 
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------

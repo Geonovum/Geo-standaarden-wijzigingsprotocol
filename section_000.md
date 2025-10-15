@@ -24,7 +24,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='067E5227'>Opmerkingen Regieoverleg verwerkt en opnieuw aangeboden aan Regieoverleg. Belangrijkste wijzigingen: X-wijz. max 1x per 3 jaar, Y-wijz. max 1x per jaar, Z-wijz. z.s.m. Verder formuleringen aangescherpt over rol NEN bij NEN3610, OGC bij GML en Forum bij toekennen PTOLU-status aan standaarden. Aanbieden aan Programmaraad ter vaststelling.</p></td>
 </tr>
 <tr><td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='3B3C6C9D'>1.1</p></td>
-<td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='181F9C6D'>2 Juli 2019</p></td>
+<td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='181F9C6D'>19 oktober 2021</p></td>
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='0FC0CFD3'>Vastgesteld </p></td>
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='72F19D67'><a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn' target='_blank'>Programmaraad</a></p></td>
 </tr>

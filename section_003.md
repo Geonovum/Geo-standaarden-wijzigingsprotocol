@@ -18,11 +18,15 @@ In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in d
 <br/>
 <b>Toetsing</b>: 
 De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implementatie. In deze fase wordt eenieder (X, Y wijziging) of een beperkte groep belanghebbenden (Z wijziging) uitgenodigd om zijn visie te geven op de nieuwe versie van de standaard. De reacties uit de consultatie worden verwerkt in de specificatie. In het geval van een X of Y wijziging wordt de nieuw voorgestelde versie voorgelegd aan het Regie-overleg met het verzoek advies uit te brengen aan de Programmaraad van Geonovum (zie [paragraaf 3.2](#21D2F6BA)). 
-<br/>
+ 
+> In het consultatieproces zit ook het aspect van toetsen en bepalen van impact van nieuwe versies van een basisstandaard op conformiteit met domeinstandaarden. Dit wordt meegenomen in de overwegingen van het op te stellen advies door het Regie-overleg.  
+ 
 <br/>
 <b>Besluitvorming</b>: 
 Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie [paragraaf 2.3](#207E4963)) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href='https://forumstandaardisatie.nl' target='_blank'>Forum Standaardisatie</a>.
-<br/>
+
+> Onderdeel van de besluitvorming is de samenhang en impact van de gewijzigde standaard op de totaliteit van het standaardenlandschap.
+
 <br/>
 <b>Implementatie</b>: 
 Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze fase. Hiervoor leveren we verschillende technische bestanden op, zoals implementatiebestanden, voorbeeldbestanden en voorbeeldberichten. Deze bestanden ondersteunen softwareleveranciers en gebruikers van de geo-standaard bij de implementatie van de standaard in hun software. Beheerders van de voorziening/ het register e.d. nemen de geo-standaard over. Daarnaast stelt Geonovum validators beschikbaar, waarmee de technische juistheid van de implementatie van standaarden kan worden getoetst. Wij ondersteunen de implementatie bovendien door de werking van de geo-standaard toe te lichten met behulp van handreikingen en wegwijzers. Resultaat van deze fase is dat de gebruikers data kunnen maken en uitwisselen conform de nieuwe standaard. In [hoofdstuk 5](#6BEFD657) wordt dit verder toegelicht.

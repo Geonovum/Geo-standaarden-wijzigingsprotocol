@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.4.1">
+<meta name="generator" content="ReSpec 35.6.1">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -94,10 +94,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 </style>
 <meta name="color-scheme" content="light">
 <meta name="description" content="Open geo-standaarden zorgen ervoor dat geo-informatie betekenisvol voor diverse taken en in verschillende softwarepakketten te gebruiken is. Geonovum ontwikkelt en beheert de Nederlandse basisset van geo-standaarden voor het vindbaar, toegankelijk, uitwisselbaar en herbruikbaar maken van geo-informatie. Mensen die in de praktijk werken met de geo-standaarden hebben vragen over de toepassing ervan, willen weten welke ontwikkelingen spelen, en hebben mogelijk suggesties voor aanpassingen van de basisset geo-standaarden. 
-Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangrijkste taken en verantwoordelijkheden van de betrokkenen (gebruikers en ketenpartners) bij het onderhouden en gebruiken van de geo-standaarden. De gebruikers en ketenpartners worden op diverse momenten betrokken in dit proces. In dit protocol beschrijven we één onderdeel van het beheer: de manier waarop de wijzigingen van een basis geo-standaard plaatsvinden. Dit wijzigingsprotocol is dan ook alleen van toepassing op de basisset geo-standaarden, voor zover die bij Geonovum in beheer zijn.
-
-
-Concreet bestaat de basisset geo-standaarden uit:">
+Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangrijkste taken en verantwoordelijkheden van de betrokkenen (gebruikers en ketenpartners) bij het onderhouden en gebruiken van de geo-standaarden. De gebruikers en ketenpartners worden op diverse momenten betrokken in dit proces. In dit protocol beschrijven we één onderdeel van het beheer: de manier waarop de wijzigingen van een basis geo-standaard plaatsvinden. Dit wijzigingsprotocol is dan ook alleen van toepassing op de basisset geo-standaarden, voor zover die bij Geonovum in beheer zijn.">
 <style>
 
   .sidelabel {
@@ -1391,10 +1388,12 @@ Concreet bestaat de basisset geo-standaarden uit:">
     <hr title="Separator for header">
   </div>
 <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Open geo-standaarden zorgen ervoor dat geo-informatie betekenisvol voor diverse taken en in verschillende softwarepakketten te gebruiken is. Geonovum ontwikkelt en beheert de Nederlandse basisset van geo-standaarden voor het vindbaar, toegankelijk, uitwisselbaar en herbruikbaar maken van geo-informatie. Mensen die in de praktijk werken met de geo-standaarden hebben vragen over de toepassing ervan, willen weten welke ontwikkelingen spelen, en hebben mogelijk suggesties voor aanpassingen van de basisset geo-standaarden. 
-Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangrijkste taken en verantwoordelijkheden van de betrokkenen (gebruikers en ketenpartners) bij het onderhouden en gebruiken van de geo-standaarden. De gebruikers en ketenpartners worden op diverse momenten betrokken in dit proces. In dit protocol beschrijven we één onderdeel van het beheer: de manier waarop de wijzigingen van een basis geo-standaard plaatsvinden. Dit wijzigingsprotocol is dan ook alleen van toepassing op de basisset geo-standaarden, voor zover die bij Geonovum in beheer zijn.
+Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangrijkste taken en verantwoordelijkheden van de betrokkenen (gebruikers en ketenpartners) bij het onderhouden en gebruiken van de geo-standaarden. De gebruikers en ketenpartners worden op diverse momenten betrokken in dit proces. In dit protocol beschrijven we één onderdeel van het beheer: de manier waarop de wijzigingen van een basis geo-standaard plaatsvinden. Dit wijzigingsprotocol is dan ook alleen van toepassing op de basisset geo-standaarden, voor zover die bij Geonovum in beheer zijn.</p>
+<blockquote>
+<p>Het is van belang te beseffen dat wijzigingen in de basisset geo-standaarden impact op conformiteit kan hebben met onderliggende standaarden. Deze relaties dienen in de wijzigings- advies- en besluitprocedure meegenomen te worden.</p>
+</blockquote>
 <br>
-<br>
-Concreet bestaat de basisset geo-standaarden uit: </p>
+Concreet bestaat de basisset geo-standaarden uit: 
 <ul><li><a href="http://www.geonovum.nl/onderwerpen/basismodel-geo-informatie-nen3610" target="_blank">Basismodel geo-informatie NEN 3610</a>; </li>
 <li><a href="http://www.geonovum.nl/onderwerpen/geography-markup-language-gml" target="_blank">Geography Markup Language (GML)</a>; </li>
 <li><a href="https://www.geonovum.nl/geo-standaarden/geopackage" target="_blank">GeoPackage</a>; </li>
@@ -1607,16 +1606,22 @@ In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in d
 <br>
 <br>
 <b>Toetsing</b>: 
-De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implementatie. In deze fase wordt eenieder (X, Y wijziging) of een beperkte groep belanghebbenden (Z wijziging) uitgenodigd om zijn visie te geven op de nieuwe versie van de standaard. De reacties uit de consultatie worden verwerkt in de specificatie. In het geval van een X of Y wijziging wordt de nieuw voorgestelde versie voorgelegd aan het Regie-overleg met het verzoek advies uit te brengen aan de Programmaraad van Geonovum (zie <a href="#21D2F6BA">paragraaf 3.2</a>). 
-<br>
+De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implementatie. In deze fase wordt eenieder (X, Y wijziging) of een beperkte groep belanghebbenden (Z wijziging) uitgenodigd om zijn visie te geven op de nieuwe versie van de standaard. De reacties uit de consultatie worden verwerkt in de specificatie. In het geval van een X of Y wijziging wordt de nieuw voorgestelde versie voorgelegd aan het Regie-overleg met het verzoek advies uit te brengen aan de Programmaraad van Geonovum (zie <a href="#21D2F6BA">paragraaf 3.2</a>). </p>
+<blockquote>
+<p>In het consultatieproces zit ook het aspect van toetsen en bepalen van impact van nieuwe versies van een basisstandaard op conformiteit met domeinstandaarden. Dit wordt meegenomen in de overwegingen van het op te stellen advies door het Regie-overleg.  </p>
+</blockquote>
 <br>
 <b>Besluitvorming</b>: 
-Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie <a href="#207E4963">paragraaf 2.3</a>) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href="https://forumstandaardisatie.nl" target="_blank">Forum Standaardisatie</a>.
-<br>
+Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie [paragraaf 2.3](#207E4963)) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href="https://forumstandaardisatie.nl" target="_blank">Forum Standaardisatie</a>.
+
+<blockquote>
+<p>Onderdeel van de besluitvorming is de samenhang en impact van de gewijzigde standaard op de totaliteit van het standaardenlandschap.</p>
+</blockquote>
 <br>
 <b>Implementatie</b>: 
-Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze fase. Hiervoor leveren we verschillende technische bestanden op, zoals implementatiebestanden, voorbeeldbestanden en voorbeeldberichten. Deze bestanden ondersteunen softwareleveranciers en gebruikers van de geo-standaard bij de implementatie van de standaard in hun software. Beheerders van de voorziening/ het register e.d. nemen de geo-standaard over. Daarnaast stelt Geonovum validators beschikbaar, waarmee de technische juistheid van de implementatie van standaarden kan worden getoetst. Wij ondersteunen de implementatie bovendien door de werking van de geo-standaard toe te lichten met behulp van handreikingen en wegwijzers. Resultaat van deze fase is dat de gebruikers data kunnen maken en uitwisselen conform de nieuwe standaard. In <a href="#6BEFD657">hoofdstuk 5</a> wordt dit verder toegelicht.
-<br></p>
+Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze fase. Hiervoor leveren we verschillende technische bestanden op, zoals implementatiebestanden, voorbeeldbestanden en voorbeeldberichten. Deze bestanden ondersteunen softwareleveranciers en gebruikers van de geo-standaard bij de implementatie van de standaard in hun software. Beheerders van de voorziening/ het register e.d. nemen de geo-standaard over. Daarnaast stelt Geonovum validators beschikbaar, waarmee de technische juistheid van de implementatie van standaarden kan worden getoetst. Wij ondersteunen de implementatie bovendien door de werking van de geo-standaard toe te lichten met behulp van handreikingen en wegwijzers. Resultaat van deze fase is dat de gebruikers data kunnen maken en uitwisselen conform de nieuwe standaard. In [hoofdstuk 5](#6BEFD657) wordt dit verder toegelicht.
+<br>
+
 </section><section id="inzicht-in-het-wijzigingsproces"><div class="header-wrapper"><h3 id="21D2F6BA"><bdi class="secno">3.2 </bdi>Inzicht in het wijzigingsproces</h3><a class="self-link" href="#21D2F6BA" aria-label="Permalink for Section 3.2"></a></div><p>De meldingen en wijzigingsverzoeken alsook (inter)nationale ontwikkelingen geven aanleiding tot de verdere ontwikkeling voor een geo-standaard. Het wijzigingsproces doorloopt de fasen zoals geschetst in <a href="#24999071">paragraaf 3.1</a>. 
 In figuur 3 ‘Wijzigingen doorvoeren in de geo-standaarden’ is het proces voor X en Y wijzigingen weergegeven. Het standaardenteam kan 1 of meerdere werkgroepen samenstellen. De werkgroep onderzoekt de wijzigingsverzoeken en werkt aan een nieuwe versie van de geo-standaard door dit vast te leggen in een wijzigingsvoorstel. Het standaardenteam vraagt ook aan softwareleveranciers advies over de wijzigingsverzoeken en de wijze waarop deze in de nieuwe versie worden verwerkt. Na consultatie van het wijzigingsvoorstel (zie <a href="#4AD37261">paragraaf 2.2.2</a>) legt het standaardenteam het voorstel voor aan het Regie-overleg geo-standaarden. Op basis van het advies van het Regie-overleg geo-standaarden besluit de Programmaraad van Geonovum over het wijzigingsvoorstel. 
 <br>
@@ -1719,7 +1724,7 @@ In dat geval geldt de klachtenafhandeling zoals opgenomen in hoofdstuk 6 van het
 
 
 <p role="navigation" id="back-to-top">
-    <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+    <a href="#title"><abbr title="Terug naar boven">↑</abbr></a>
   </p><script id="respec-dfn-panel">(() => {
 // @ts-check
 if (document.respec) {

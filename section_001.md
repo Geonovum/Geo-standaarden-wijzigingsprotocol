@@ -4,8 +4,8 @@
 In dit wijzigingsprotocol staan de sturende principes achter het wijzigingsproces voor de standaarden in de basisset geo-standaarden; de manier waarop wijzigingen in geo-standaarden plaatsvinden in afstemming met de gebruikers en ketenpartners. Met het protocol wordt elke wijziging van de standaard een voorspelbaar en transparant proces voor de gebruikers van de geo-standaarden. In het protocol zijn basisbegrippen en uitgangspunten uiteengezet voor het wijzigingsproces, bijvoorbeeld wat onder nieuwe en volgende versies van de standaard verstaan wordt en wanneer deze nieuwe versie(s) verwacht mogen worden. Tevens is een processchema uitgewerkt, dat invulling geeft aan de stappen die de gebruikers en ketenpartners met elkaar doorlopen om tot een wijziging van de geo-standaarden te komen.
 ## Begrippen  {#301821F8}
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 21.608156644652997%;'>
-<col id='col2' style='width: 78.391843355347%;'>
+<colgroup><col id='col0011' style='width: 21.608156644652997%;'>
+<col id='col0012' style='width: 78.391843355347%;'>
 </colgroup>
 <tbody><tr><td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='1BF055C7'><b>Begrip</b></p></td>
 <td class='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000;'><p id='6E17838A'><b>Uitleg</b></p></td>

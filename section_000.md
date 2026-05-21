@@ -3,8 +3,8 @@
 Dit document is aan verandering onderhevig. Het versiebeheer van het document geeft inzicht in wijzigen en de actualiteit ervan.
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 9.801876955161628%;'>
-<col id='col2' style='width: 18.06279689491368%;'>
+<colgroup><col id='col0001' style='width: 9.801876955161628%;'>
+<col id='col0002' style='width: 18.06279689491368%;'>
 <col id='col3' style='width: 14.78391843355347%;'>
 <col id='col4' style='width: 57.35140771637121%;'>
 </colgroup>

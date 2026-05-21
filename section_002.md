@@ -22,7 +22,7 @@ Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe 
 <br/>
 <br/>
 We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij een release wordt de nieuwe versie van het product/ de bundel van producten opgeleverd en gepubliceerd van GitHub naar een van de volgende Geonovum publicatieservers. Welke publicatieserver is afhankelijk van het type product.  
-<ul><li><a href='http://register.geostandaarden.nl/' target='_blank'>Technisch register</a>;</li>
+<ul><li><a href='https://register.geostandaarden.nl/' target='_blank'>Technisch register</a>;</li>
 <li><a href='https://definities.geostandaarden.nl/' target='_blank'>Conceptenbibliotheek</a>;</li>
 <li><a href='https://docs.geostandaarden.nl/' target='_blank'>Documenten register</a>;</li>
 <li><a href='https://modellen.geostandaarden.nl/' target='_blank'>Ontologieën register</a>.</li>

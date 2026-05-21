@@ -5,8 +5,8 @@ Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangr
 
 <br/>
 Concreet bestaat de basisset geo-standaarden uit: 
-<ul><li><a href='http://www.geonovum.nl/onderwerpen/basismodel-geo-informatie-nen3610' target='_blank'>Basismodel geo-informatie NEN 3610</a>; </li>
-<li><a href='http://www.geonovum.nl/onderwerpen/geography-markup-language-gml' target='_blank'>Geography Markup Language (GML)</a>; </li>
+<ul><li><a href='https://www.geonovum.nl/onderwerpen/basismodel-geo-informatie-nen3610' target='_blank'>Basismodel geo-informatie NEN 3610</a>; </li>
+<li><a href='https://www.geonovum.nl/onderwerpen/geography-markup-language-gml' target='_blank'>Geography Markup Language (GML)</a>; </li>
 <li><a href='https://www.geonovum.nl/geo-standaarden/geopackage' target='_blank'>GeoPackage</a>; </li>
 <li><a href='https://www.geonovum.nl/geo-standaarden/metadata' target='_blank'>Metadata-profielen voor geografie en webservices</a>; </li>
 <li><a href='https://www.geonovum.nl/geo-standaarden/ogc-apis' target='_blank'>OGC API Features</a>; </li>

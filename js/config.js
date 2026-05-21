@@ -22,7 +22,7 @@ let respecConfig = {
 
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-05-13",
+  publishDate: "2026-05-21",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: "2.0.1",
   previousVersion: "2.0.0",

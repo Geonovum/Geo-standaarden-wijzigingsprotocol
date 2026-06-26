@@ -5,8 +5,8 @@ let respecConfig = {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
-  specStatus: "vv",               // Versie ter vaststelling
-  //specStatus: "def",              // Vastgestelde versie
+  //specStatus: "vv",               // Versie ter vaststelling
+  specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   specType: "BD",                 // Beheer Documentatie
@@ -22,7 +22,7 @@ let respecConfig = {
 
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-05-21",
+  publishDate: "2026-06-26",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: "2.0.1",
   previousVersion: "2.0.0",
@@ -32,8 +32,8 @@ let respecConfig = {
   // manier doen
   //previousPublishDate: "2019-07-02",
   //previousMaturity: "def",
-  previousPublishDate: "2025-10-09",
-  previousMaturity: "cv",
+  previousPublishDate: "2026-05-21",
+  previousMaturity: "vv",
   //prevVersion: ["https://docs.geostandaarden.nl/gsw/def-bd-gsw-20211019/"],
 
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------

@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.8.0">
+<meta name="generator" content="ReSpec 37.0.0">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -16,6 +16,7 @@ dfn{cursor:pointer}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
 .dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
 .dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel .marker.cddl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
 .dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
 .dfn-panel a[href]:hover{border-bottom-width:1px}
 .dfn-panel ul{padding:0}
@@ -62,13 +63,17 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+@media (prefers-color-scheme:dark){
+#references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
+}
+body:has(input[name=color-scheme][value=dark]:checked) #references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
 cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 #issue-summary>ul{column-count:2}
-#issue-summary li{list-style:none;display:inline-block}
+#issue-summary li{list-style:none}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
 details.respec-tests-details>*{padding-right:2em}
 details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
@@ -77,7 +82,8 @@ details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
 .self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-.header-wrapper{display:flex;align-items:baseline;position:relative;left:-.5em}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2):has(+a.self-link){position:relative;left:-.5em}
 :is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-.7em;font-size:1rem;opacity:.5}
 :is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
 :is(h2,h3)+a.self-link{top:-.2em}
@@ -88,6 +94,8 @@ dd{margin-left:0}
 @media print{
 .removeOnSave{display:none}
 }
+body:has(input[name=color-scheme][value=light]:checked),head:not(:has(meta[name=color-scheme][content~=dark]))+body{color-scheme:light}
+body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 </style>
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px;background:0 0}
@@ -1320,15 +1328,15 @@ Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangr
     }
   },
   "title": "Wijzigingsprotocol geo-standaarden",
-  "specStatus": "vv",
+  "specStatus": "def",
   "specType": "BD",
   "pubDomain": "geo-standaarden",
   "shortName": "gsw",
-  "publishDate": "2026-05-21",
+  "publishDate": "2026-06-26",
   "publishVersion": "2.0.1",
   "previousVersion": "2.0.0",
-  "previousPublishDate": "2025-10-09",
-  "previousMaturity": "cv",
+  "previousPublishDate": "2026-05-21",
+  "previousMaturity": "vv",
   "editors": [
     {
       "name": "Monique van Scherpenzeel",
@@ -1347,18 +1355,18 @@ Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangr
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
-<body class="h-entry informative toc-inline"><div class="head">
+<body class="h-entry informative"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://docs.geostandaarden.nl/media/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Wijzigingsprotocol geo-standaarden 2.0.1</h1>
     
     <h2>
       Geonovum Beheerdocumentatie<br>
-      Versie ter vaststelling
-      <time class="dt-published" datetime="2026-05-21">21 mei 2026</time>
+      Vastgestelde versie
+      <time class="dt-published" datetime="2026-06-26">26 juni 2026</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/geo-standaarden/vv-bd-gsw-20260521">https://docs.geostandaarden.nl/geo-standaarden/vv-bd-gsw-20260521</a>
+              <a class="u-url status" href="https://docs.geostandaarden.nl/geo-standaarden/def-bd-gsw-20260626">https://docs.geostandaarden.nl/geo-standaarden/def-bd-gsw-20260626</a>
             </dd>
       <dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://docs.geostandaarden.nl/geo-standaarden/gsw/">https://docs.geostandaarden.nl/geo-standaarden/gsw/</a>
@@ -1367,7 +1375,7 @@ Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangr
       
       
       
-      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/geo-standaarden/cv-bd-gsw-20251009">https://docs.geostandaarden.nl/geo-standaarden/cv-bd-gsw-20251009</a></dd>
+      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/geo-standaarden/vv-bd-gsw-20260521">https://docs.geostandaarden.nl/geo-standaarden/vv-bd-gsw-20260521</a></dd>
       
       <dt>Redacteur:</dt>
       <dd class="editor p-author h-card vcard">
@@ -1380,7 +1388,9 @@ Dit wijzigingsprotocol geeft inzicht in het wijzigingsproces, evenals de belangr
       <dt>Doe mee:</dt><dd>
     <a href="https://github.com/Geonovum/Geo-standaarden-wijzigingsprotocol/">GitHub Geonovum/Geo-standaarden-wijzigingsprotocol</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/Geo-standaarden-wijzigingsprotocol/issues/">Dien een melding in</a>
+    <a href="https://github.com/Geonovum/Geo-standaarden-wijzigingsprotocol/issues/">All issues</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/Geo-standaarden-wijzigingsprotocol/issues/new/choose">Dien een melding in</a>
   </dd><dd>
     <a href="https://github.com/Geonovum/Geo-standaarden-wijzigingsprotocol/commits/">Revisiehistorie</a>
   </dd><dd>
@@ -1411,14 +1421,12 @@ Concreet bestaat de basisset geo-standaarden uit:
 <li><a href="https://www.geonovum.nl/geo-standaarden/ogc-apis" target="_blank">OGC API Tiles</a>. </li>
 </ul>
 <br>
-De basisset geo-standaarden staat op de ‘<a href="https://www.forumstandaardisatie.nl/open-standaarden" target="_blank">Pas toe of leg uit -standaarden lijst van het Forum Standaardisatie</a>. 
-
-<p>Dit wijzigingsprotocol is niet van toepassing op de domeinstandaarden die Geonovum in beheer heeft. Iedere domeinstandaard in beheer bij Geonovum heeft een eigen wijzigingsprotocol of zou dit moeten hebben. Deze zijn beschikbaar via de Geonovum website. Het wijzigingsprotocol voor de basisset geo-standaarden geldt als het generieke wijzigingsprotocol. Andere wijzigingsprotocollen dienen hiervan te worden afgeleid en hiermee in lijn te zijn.
+De basisset geo-standaarden staat op de ‘<a href="https://www.forumstandaardisatie.nl/open-standaarden" target="_blank">Pas toe of leg uit -standaarden lijst van het Forum Standaardisatie</a>. <p>Dit wijzigingsprotocol is niet van toepassing op de domeinstandaarden die Geonovum in beheer heeft. Iedere domeinstandaard in beheer bij Geonovum heeft een eigen wijzigingsprotocol of zou dit moeten hebben. Deze zijn beschikbaar via de Geonovum website. Het wijzigingsprotocol voor de basisset geo-standaarden geldt als het generieke wijzigingsprotocol. Andere wijzigingsprotocollen dienen hiervan te worden afgeleid en hiermee in lijn te zijn.
 <br>
 <br>
 In het <a href="https://docs.geostandaarden.nl/gbd/gsb/" target="_blank">beheerplan geo-standaarden</a> zijn de verschillende beheeraspecten voor de basisset geo-standaarden beschreven zoals implementatieondersteuning, wijzigingsproces, governance, etc. zodat iedere organisatie die de basisset geo-standaarden gebruikt hun weg weten te vinden in de geo-standaarden.</p>
 </section>
-<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#55B54A46"><bdi class="secno">1. </bdi>Inleiding </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#365FC39A"><bdi class="secno">1.1 </bdi>Waarom een wijzigingsprotocol</a></li><li class="tocline"><a class="tocxref" href="#301821F8"><bdi class="secno">1.2 </bdi>Begrippen </a></li></ol></li><li class="tocline"><a class="tocxref" href="#41513FF0"><bdi class="secno">2. </bdi>Gebruik van het wijzigingsprotocol</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#7CDE8796"><bdi class="secno">2.1 </bdi>Protocol versus proces</a></li><li class="tocline"><a class="tocxref" href="#000486F9"><bdi class="secno">2.2 </bdi>Releasebeleid</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#48BAAD23"><bdi class="secno">2.2.1 </bdi>Nieuwe versie van de standaard</a></li><li class="tocline"><a class="tocxref" href="#4AD37261"><bdi class="secno">2.2.2 </bdi>Consultatie </a></li><li class="tocline"><a class="tocxref" href="#3C90F7C6"><bdi class="secno">2.2.3 </bdi>Oudere versie van een standaard</a></li></ol></li><li class="tocline"><a class="tocxref" href="#207E4963"><bdi class="secno">2.3 </bdi>Proces varianten bij wijzigingen </a></li><li class="tocline"><a class="tocxref" href="#446369FA"><bdi class="secno">2.4 </bdi>Betrokkenen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#60D731F6"><bdi class="secno">3. </bdi>Wijzigingsproces</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#24999071"><bdi class="secno">3.1 </bdi>Fasen in het wijzigingsproces</a></li><li class="tocline"><a class="tocxref" href="#21D2F6BA"><bdi class="secno">3.2 </bdi>Inzicht in het wijzigingsproces</a></li></ol></li><li class="tocline"><a class="tocxref" href="#572CC78A"><bdi class="secno">4. </bdi>Tussentijdse werkafspraken</a></li><li class="tocline"><a class="tocxref" href="#6BEFD657"><bdi class="secno">5. </bdi>Implementatie ondersteuning</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4B0AA488"><bdi class="secno">5.1 </bdi>Technische bestanden</a></li><li class="tocline"><a class="tocxref" href="#7256DB88"><bdi class="secno">5.2 </bdi>Validatie en certificatie</a></li><li class="tocline"><a class="tocxref" href="#0930E05A"><bdi class="secno">5.3 </bdi>Opleiding</a></li><li class="tocline"><a class="tocxref" href="#331B9E8F"><bdi class="secno">5.4 </bdi>Communicatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#718CA66D"><bdi class="secno">6. </bdi>Escalatie- en klachtenprocedure</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#24F83D78"><bdi class="secno">6.1 </bdi>Sturende principes bij escalatie</a></li><li class="tocline"><a class="tocxref" href="#625AEBC6"><bdi class="secno">6.2 </bdi>Klachtenafhandeling</a></li></ol></li></ol></nav>
+<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#55B54A46"><bdi class="secno">1. </bdi>Inleiding </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#365FC39A"><bdi class="secno">1.1 </bdi>Waarom een wijzigingsprotocol</a></li><li class="tocline"><a class="tocxref" href="#301821F8"><bdi class="secno">1.2 </bdi>Begrippen </a></li></ol></li><li class="tocline"><a class="tocxref" href="#41513FF0"><bdi class="secno">2. </bdi>Gebruik van het wijzigingsprotocol</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#7CDE8796"><bdi class="secno">2.1 </bdi>Protocol versus proces</a></li><li class="tocline"><a class="tocxref" href="#000486F9"><bdi class="secno">2.2 </bdi>Releasebeleid</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#48BAAD23"><bdi class="secno">2.2.1 </bdi>Nieuwe versie van de standaard</a></li><li class="tocline"><a class="tocxref" href="#4AD37261"><bdi class="secno">2.2.2 </bdi>Consultatie </a></li><li class="tocline"><a class="tocxref" href="#3C90F7C6"><bdi class="secno">2.2.3 </bdi>Oudere versie van een standaard</a></li></ol></li><li class="tocline"><a class="tocxref" href="#207E4963"><bdi class="secno">2.3 </bdi>Proces varianten bij wijzigingen </a></li><li class="tocline"><a class="tocxref" href="#446369FA"><bdi class="secno">2.4 </bdi>Betrokkenen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#60D731F6"><bdi class="secno">3. </bdi>Wijzigingsproces</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#24999071"><bdi class="secno">3.1 </bdi>Fasen in het wijzigingsproces</a></li><li class="tocline"><a class="tocxref" href="#21D2F6BA"><bdi class="secno">3.2 </bdi>Inzicht in het wijzigingsproces</a></li></ol></li><li class="tocline"><a class="tocxref" href="#572CC78A"><bdi class="secno">4. </bdi>Tussentijdse werkafspraken</a></li><li class="tocline"><a class="tocxref" href="#6BEFD657"><bdi class="secno">5. </bdi>Implementatie ondersteuning</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4B0AA488"><bdi class="secno">5.1 </bdi>Technische bestanden</a></li><li class="tocline"><a class="tocxref" href="#7256DB88"><bdi class="secno">5.2 </bdi>Validatie en certificatie</a></li><li class="tocline"><a class="tocxref" href="#0930E05A"><bdi class="secno">5.3 </bdi>Opleiding</a></li><li class="tocline"><a class="tocxref" href="#331B9E8F"><bdi class="secno">5.4 </bdi>Communicatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#718CA66D"><bdi class="secno">6. </bdi>Escalatie- en klachtenprocedure</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#24F83D78"><bdi class="secno">6.1 </bdi>Sturende principes bij escalatie</a></li><li class="tocline"><a class="tocxref" href="#625AEBC6"><bdi class="secno">6.2 </bdi>Klachtenafhandeling</a></li></ol></li></ol></nav>
 
   <section class="chapter"><p><strong>Versiebeheer</strong></p>
 <p>Dit document is aan verandering onderhevig. Het versiebeheer van het document geeft inzicht in wijzigen en de actualiteit ervan.</p>
@@ -1513,9 +1521,7 @@ Met behulp van een wijzigingsprotocol voor de basisset geo-standaarden geeft Geo
 <li>een eenduidige aanpak.</li>
 </ul><br>
 De stabiliteit en continuïteit van de standaard maken wij inzichtelijk met het jaarplan voor standaardisatie en innovatie. Hierin staan de activiteiten die wij uitvoeren om de interoperabiliteit binnen onze nationale geodata infrastructuur (NGII) te borgen en de innovaties die wij in dit kader verkennen.
-<br>
-
-</section><section id="releasebeleid"><div class="header-wrapper"><h3 id="000486F9"><bdi class="secno">2.2 </bdi>Releasebeleid</h3><a class="self-link" href="#000486F9" aria-label="Permalink for Section 2.2"></a></div><p>In deze paragraaf gaan we in op het releasebeleid van Geonovum. Dit beleid passen wij toe op de basisset geo-standaarden die in beheer is bij Geonovum. Concreet gaat het om het releasebeleid voor de Metadata-profielen voor geografie en webservices. Voor GML, GeoPackage, OGC API Features en OGC API Tiles geldt dat deze standaarden worden beheerd door OGC en het <a href="https://docs.ogc.org/pol/05-020r29/05-020r29.html" target="_blank">beleid en procedures van de Technische Commissie van de OGC</a> wordt toegepast. Voor het Basismodel Geo-informatie (NEN 3610) geldt dat de Programmaraad  de nieuwe versie van NEN 3610 niet vaststelt, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast.
+<br></section><section id="releasebeleid"><div class="header-wrapper"><h3 id="000486F9"><bdi class="secno">2.2 </bdi>Releasebeleid</h3><a class="self-link" href="#000486F9" aria-label="Permalink for Section 2.2"></a></div><p>In deze paragraaf gaan we in op het releasebeleid van Geonovum. Dit beleid passen wij toe op de basisset geo-standaarden die in beheer is bij Geonovum. Concreet gaat het om het releasebeleid voor de Metadata-profielen voor geografie en webservices. Voor GML, GeoPackage, OGC API Features en OGC API Tiles geldt dat deze standaarden worden beheerd door OGC en het <a href="https://docs.ogc.org/pol/05-020r29/05-020r29.html" target="_blank">beleid en procedures van de Technische Commissie van de OGC</a> wordt toegepast. Voor het Basismodel Geo-informatie (NEN 3610) geldt dat de Programmaraad  de nieuwe versie van NEN 3610 niet vaststelt, maar keurt hem goed (of af) en draagt deze vervolgens voor aan de NEN normcommissie 351 240 Geo-informatie. Deze commissie verzorgt de openbare consultatie en stelt deze geo-standaard formeel vast.
 <br>
 Een release van een standaard is een nieuwe uitgave van de standaard. De nieuwe release kenmerkt zich ten opzichte van de oude versie door een hoger versienummer. Een release betreft 1 product van een standaard of is een bundel van meerdere producten van de betreffende standaard. Bij de release is ieder product voorzien van een nieuw versienummer conform X.Y.Z schrijfwijze (zie <a href="#48BAAD23">paragraaf 2.2.1</a>) en een status. Een voorbeeld van een bundel is de nieuwe uitgave van een informatiemodel, een schema (bijvoorbeeld .xsd of .json), een schematron (.sch) en een praktijkrichtlijn. 
 <br>
@@ -1527,18 +1533,14 @@ We werken aan een nieuwe uitgave van een product van de standaard op GitHub. Bij
 <li><a href="https://modellen.geostandaarden.nl/" target="_blank">Ontologieën register</a>.</li>
 </ul><br> 
 Ontsluiting breed naar ons netwerk vindt vervolgens altijd plaats via de Geonovum website op de geo-standaarden pagina en nieuwsbrieven. Op de Geonovum website verwijzen we voor het raadplegen en downloaden van de nieuwe uitgave altijd naar de bronlocatie: onze publicatieservers. 
-<br>
-
-<section id="nieuwe-versie-van-de-standaard"><div class="header-wrapper"><h4 id="48BAAD23"><bdi class="secno">2.2.1 </bdi>Nieuwe versie van de standaard</h4><a class="self-link" href="#48BAAD23" aria-label="Permalink for Section 2.2.1"></a></div><p>Elk product van onze standaarden is altijd voorzien van een versienummer. Bij het aanpassen van dat product, wijzigt het versienummer. De grootte van de wijzigingen (major, minor, patch ofwel X,Y,Z wijzigingen) heeft gevolg voor de implementatie van de standaard en wordt uitgedrukt in de  versienummering. Hierbij wordt de ‘Semantic Versioning’ (<a href="https://semver.org/lang/nl/" target="_blank">SemVer</a>) methodiek aangehouden.
+<br><section id="nieuwe-versie-van-de-standaard"><div class="header-wrapper"><h4 id="48BAAD23"><bdi class="secno">2.2.1 </bdi>Nieuwe versie van de standaard</h4><a class="self-link" href="#48BAAD23" aria-label="Permalink for Section 2.2.1"></a></div><p>Elk product van onze standaarden is altijd voorzien van een versienummer. Bij het aanpassen van dat product, wijzigt het versienummer. De grootte van de wijzigingen (major, minor, patch ofwel X,Y,Z wijzigingen) heeft gevolg voor de implementatie van de standaard en wordt uitgedrukt in de  versienummering. Hierbij wordt de ‘Semantic Versioning’ (<a href="https://semver.org/lang/nl/" target="_blank">SemVer</a>) methodiek aangehouden.
 <br>
 <br>
 We hanteren drie typen versies voor een wijziging van een standaard. Bijvoorbeeld: versie 2.1.0 (=X.Y.Z):</p>
 <ul><li><b>X-wijzigingen </b>Dit zijn grote (major) wijzigingen van de standaard die niet backwards compatible zijn.</li>
 <li><b>Y-wijzigingen </b>Dit zijn wijzigingen die wel backwards compatible zijn.</li>
 <li><b>Z-wijzigingen </b>Dit zijn in feite oplossingen van technische fouten of verbeteringen van technische aard, alsmede tekstuele verbeteringen. Deze wijzigingen zijn backwards compatible.</li>
-</ul>
-
-</section><section id="consultatie"><div class="header-wrapper"><h4 id="4AD37261"><bdi class="secno">2.2.2 </bdi>Consultatie </h4><a class="self-link" href="#4AD37261" aria-label="Permalink for Section 2.2.2"></a></div><p>Met (door)ontwikkelen van een standaard leveren wij nieuwe versies van de producten van de standaard op. Doel van een consultatie is ons netwerk, de gebruikers van de standaard en de ketenpartners te raadplegen; wij vragen hen om advies, zodat de standaard zo goed mogelijk aansluit op de werkprocessen van de eindgebruikers van de standaarden. 
+</ul></section><section id="consultatie"><div class="header-wrapper"><h4 id="4AD37261"><bdi class="secno">2.2.2 </bdi>Consultatie </h4><a class="self-link" href="#4AD37261" aria-label="Permalink for Section 2.2.2"></a></div><p>Met (door)ontwikkelen van een standaard leveren wij nieuwe versies van de producten van de standaard op. Doel van een consultatie is ons netwerk, de gebruikers van de standaard en de ketenpartners te raadplegen; wij vragen hen om advies, zodat de standaard zo goed mogelijk aansluit op de werkprocessen van de eindgebruikers van de standaarden. 
 De consultaties zijn openbaar/ publiek en daardoor mag iedereen reageren op de nieuwe versie. Consultaties duren minimaal 3 weken en maximaal 8 weken. Bekendmaking gebeurt via de Geonovum website door middel van een nieuwsbericht. We attenderen de gebruikers en de ketenpartners via onze nieuwsbrief de Geo-standaard (inschrijving daarvoor vindt plaats via de Geonovum website). 
 Wanneer en hoe lang een consultatie plaatst vindt, is afhankelijk van proces varianten bij wijzigingen (zie <a href="#207E4963">paragraaf 2.3</a>).
 <br></p>
@@ -1549,9 +1551,7 @@ Voor het onderhoud en de ondersteuning van een oude versie van een standaard gel
 <ul><li>Aan een oude versie worden geen nieuwe features toegevoegd, geen aanpassingen gedaan op X en Y niveau na het uitbrengen van een nieuwe versie. Verzoeken om aanpassing en wijziging voor nieuwe functionaliteit worden niet meer voor de oude standaard in behandeling genomen maar doorgegeven aan het ontwikkelteam. Correcties (Z-wijzigingen) worden wel uitgevoerd op de vorige versies zolang deze nog ondersteund worden.</li>
 <li>Bij oplevering van een nieuwe versie wordt de voorgaande versie nog een vooraf vastgestelde periode ondersteund. De duur van de overgangsperiode wordt mede bepaald door de omvang van de wijzigingen (X, Y en Z wijzigingen op de vorige versies), de staat van ontwikkeling van de standaard en of de standaard in voorlopig dan wel permanent beheer is.</li>
 <li>Oudere versies van (producten van) de standaard moeten voor onbepaalde tijd beschikbaar blijven via onze publicatie registers via de url’s zoals ze gepubliceerd.</li>
-</ul>
-
-</section></section><section id="proces-varianten-bij-wijzigingen"><div class="header-wrapper"><h3 id="207E4963"><bdi class="secno">2.3 </bdi>Proces varianten bij wijzigingen </h3><a class="self-link" href="#207E4963" aria-label="Permalink for Section 2.3"></a></div><p>In <a href="#000486F9">paragraaf 2.2</a> zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
+</ul></section></section><section id="proces-varianten-bij-wijzigingen"><div class="header-wrapper"><h3 id="207E4963"><bdi class="secno">2.3 </bdi>Proces varianten bij wijzigingen </h3><a class="self-link" href="#207E4963" aria-label="Permalink for Section 2.3"></a></div><p>In <a href="#000486F9">paragraaf 2.2</a> zijn de X, Y en Z wijzigingen uitgelegd. Voor wijzigingen kent Geonovum twee proces varianten. Eén voor X en Y wijzigingen en één voor Z wijzigingen.
 <br>
 <br>
 <b>Proces voor X en Y wijzigingen</b>: 
@@ -1569,12 +1569,8 @@ Deze dienen zo snel als mogelijk uitgevoerd te worden. De inhoudelijke fase word
 <li>Standaardenteam;</li>
 <li>Softwareleveranciers;</li>
 <li>Forum Standaardisatie.</li>
-</ul><br>
-
-<figure id="fig-betrokkenen-bij-wijzigingen-van-geo-standaarden"><img src="media/image3.jpeg" alt="De Programmaraad, het standaardenteam van Geonovum, het Regie-overleg geo-standaarden, werkgroepen en softwareleveranciers zijn betrokken bij het wijzigingsproces van een geo-standaard.B" style="width: 100%;">
-<figcaption><a class="self-link" href="#fig-betrokkenen-bij-wijzigingen-van-geo-standaarden">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Betrokkenen bij wijzigingen van geo-standaarden</span></figcaption></figure>
-
-<p><b>Programmaraad</b>: 
+</ul><br><figure id="fig-betrokkenen-bij-wijzigingen-van-geo-standaarden"><img src="media/image3.jpeg" alt="De Programmaraad, het standaardenteam van Geonovum, het Regie-overleg geo-standaarden, werkgroepen en softwareleveranciers zijn betrokken bij het wijzigingsproces van een geo-standaard.B" style="width: 100%;">
+<figcaption><a class="self-link" href="#fig-betrokkenen-bij-wijzigingen-van-geo-standaarden">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Betrokkenen bij wijzigingen van geo-standaarden</span></figcaption></figure><p><b>Programmaraad</b>: 
 Bij het vaststellen van een nieuwe versie (X, Y) van de Metadata-profielen voor geografie en webservices stelt de <a href="https://www.geonovum.nl/over-geonovum/wie-wij-zijn" target="_blank">Programmaraad</a> met advies van Geonovum vast hoelang een oude versie wordt ondersteund en wanneer een oude versie komt te vervallen. Het vaststellen van Z-wijzigingen, zie <a href="#3C90F7C6">paragraaf 2.2.3</a> wordt door Geonovum zelf uitgevoerd zonder tussenkomst van de Programmaraad van Geonovum.<br><br>
 <br>
 <b>Regie-overleg geo-standaarden</b>: 
@@ -1613,9 +1609,7 @@ De aanleiding voor een wijzigingsproces is gebaseerd op meldingen: de wensen en 
 <br>
 <br></p>
 <figure id="fig-fasen-wijzigingsproces"><img src="media/image2.png" alt="Het volledige wijzigingsproces doorloopt de fasen Inhoud, Toetsing, Besluitvorming en Implementatie." style="width: 50%;">
-<figcaption><a class="self-link" href="#fig-fasen-wijzigingsproces">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Fasen wijzigingsproces</span></figcaption></figure>
-
-<p><b>Inhoud</b>: 
+<figcaption><a class="self-link" href="#fig-fasen-wijzigingsproces">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Fasen wijzigingsproces</span></figcaption></figure><p><b>Inhoud</b>: 
 In de fase Inhoud wordt voor iedere melding bepaald of deze wordt opgenomen in de nieuwe versie van de standaard of niet. Dit wordt vastgelegd met behulp van GitHub of een andere issue tracker en is zichtbaar via de website van Geonovum. Voor meldingen die worden meegenomen in de nieuwe versie van de standaard, worden oplossingen uitgewerkt, op basis waarvan vervolgens de specificatie wordt aangepast. Dit gebeurt door Geonovum in samenwerking met inhoudelijke experts. Afhankelijk van de omvang van de wijziging ten opzichte van de voorgaande versie is de groep van experts evenredig groter of kleiner. 
 <br>
 <br>
@@ -1626,17 +1620,13 @@ De fase Toetsing vormt een brug tussen de inhoud, besluitvorming en de implement
 </blockquote>
 <br>
 <b>Besluitvorming</b>: 
-Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie [paragraaf 2.3](#207E4963)) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href="https://forumstandaardisatie.nl" target="_blank">Forum Standaardisatie</a>.
-
-<blockquote>
+Bij Besluitvorming wordt besloten om de gewijzigde specificatie vast te stellen en te publiceren. Afhankelijk van het type wijziging en de betreffende geo-standaard (X, Y of Z, zie [paragraaf 2.3](#207E4963)) besluit de Programmaraad van Geonovum dan wel het standaardenteam van Geonovum. Eenmaal vastgesteld en gepubliceerd, wordt de nieuwe versie van de standaard door Geonovum aangemeld bij het <a href="https://forumstandaardisatie.nl" target="_blank">Forum Standaardisatie</a>.<blockquote>
 <p>Onderdeel van de besluitvorming is de samenhang en impact van de gewijzigde standaard op de totaliteit van het standaardenlandschap.</p>
 </blockquote>
 <br>
 <b>Implementatie</b>: 
 Het in gebruik nemen van de geo-standaard in de praktijk staat centraal in deze fase. Hiervoor leveren we verschillende technische bestanden op, zoals implementatiebestanden, voorbeeldbestanden en voorbeeldberichten. Deze bestanden ondersteunen softwareleveranciers en gebruikers van de geo-standaard bij de implementatie van de standaard in hun software. Beheerders van de voorziening/ het register e.d. nemen de geo-standaard over. Daarnaast stelt Geonovum validators beschikbaar, waarmee de technische juistheid van de implementatie van standaarden kan worden getoetst. Wij ondersteunen de implementatie bovendien door de werking van de geo-standaard toe te lichten met behulp van handreikingen en wegwijzers. Resultaat van deze fase is dat de gebruikers data kunnen maken en uitwisselen conform de nieuwe standaard. In [hoofdstuk 5](#6BEFD657) wordt dit verder toegelicht.
-<br>
-
-</section><section id="inzicht-in-het-wijzigingsproces"><div class="header-wrapper"><h3 id="21D2F6BA"><bdi class="secno">3.2 </bdi>Inzicht in het wijzigingsproces</h3><a class="self-link" href="#21D2F6BA" aria-label="Permalink for Section 3.2"></a></div><p>De meldingen en wijzigingsverzoeken alsook (inter)nationale ontwikkelingen geven aanleiding tot de verdere ontwikkeling voor een geo-standaard. Het wijzigingsproces doorloopt de fasen zoals geschetst in <a href="#24999071">paragraaf 3.1</a>. 
+<br></section><section id="inzicht-in-het-wijzigingsproces"><div class="header-wrapper"><h3 id="21D2F6BA"><bdi class="secno">3.2 </bdi>Inzicht in het wijzigingsproces</h3><a class="self-link" href="#21D2F6BA" aria-label="Permalink for Section 3.2"></a></div><p>De meldingen en wijzigingsverzoeken alsook (inter)nationale ontwikkelingen geven aanleiding tot de verdere ontwikkeling voor een geo-standaard. Het wijzigingsproces doorloopt de fasen zoals geschetst in <a href="#24999071">paragraaf 3.1</a>. 
 In figuur 3 ‘Wijzigingen doorvoeren in de geo-standaarden’ is het proces voor X en Y wijzigingen weergegeven. Het standaardenteam kan 1 of meerdere werkgroepen samenstellen. De werkgroep onderzoekt de wijzigingsverzoeken en werkt aan een nieuwe versie van de geo-standaard door dit vast te leggen in een wijzigingsvoorstel. Het standaardenteam vraagt ook aan softwareleveranciers advies over de wijzigingsverzoeken en de wijze waarop deze in de nieuwe versie worden verwerkt. Na consultatie van het wijzigingsvoorstel (zie <a href="#4AD37261">paragraaf 2.2.2</a>) legt het standaardenteam het voorstel voor aan het Regie-overleg geo-standaarden. Op basis van het advies van het Regie-overleg geo-standaarden besluit de Programmaraad van Geonovum over het wijzigingsvoorstel. 
 <br>
 <br>
@@ -1647,15 +1637,11 @@ Bij het vaststellen van een nieuwe versie van een standaard stelt de Programmara
 Als er een fout of probleem wordt geconstateerd, gaat er doorgaans altijd enige tijd overheen voordat de fout of het probleem wordt hersteld in de nieuwe geo-standaard. Typische voorbeelden van dit soort fouten of problemen zijn in algemene zin:</p>
 <ul><li>In de geo-standaard zijn bepaalde technische vrijheden mogelijk die op grond van een goede praktijk niet zouden moeten worden benut;</li>
 <li>In de geo-standaard is iets wel mogelijk, maar niet verplicht, terwijl dit wel sterk gewenst is.</li>
-</ul><br>
-
-<p>In dit soort gevallen zal het beheer na consultatie een werkafspraak publiceren over hoe in afwachting van de wijziging (een reparatie) van de geo-standaard moet worden omgegaan met een geconstateerde fout of probleem. Zo’n werkafspraak heeft de formele status van een advies van het beheer aan de gebruikers van de geo-standaard. De tussentijdse werkafspraak vervangt niet de in gebruik zijnde versie van geo-standaard (de vastgestelde versie), maar geldt wel als werkwijze in afwachting van de nieuwe versie van de geo-standaard (na reparatie).
+</ul><br><p>In dit soort gevallen zal het beheer na consultatie een werkafspraak publiceren over hoe in afwachting van de wijziging (een reparatie) van de geo-standaard moet worden omgegaan met een geconstateerde fout of probleem. Zo’n werkafspraak heeft de formele status van een advies van het beheer aan de gebruikers van de geo-standaard. De tussentijdse werkafspraak vervangt niet de in gebruik zijnde versie van geo-standaard (de vastgestelde versie), maar geldt wel als werkwijze in afwachting van de nieuwe versie van de geo-standaard (na reparatie).
 Voor bovengenoemde voorbeelden zouden de werkafspraken resp. als volgt kunnen zijn:</p>
 <ul><li>Gebruik nooit de mogelijkheid A die de geo-standaard biedt;</li>
 <li>Doe het altijd op manier B.</li>
-</ul><br>
-
-<p>De status van deze werkafspraken is als volgt:</p>
+</ul><br><p>De status van deze werkafspraken is als volgt:</p>
 <ol><li>De tussentijdse werkafspraken zijn van toepassing totdat de wijzigingen in werking zijn getreden, daarna zijn de werkafspraken niet meer van toepassing;</li>
 <li>Indien mogelijk zijn de werkafspraken altijd een directe voorloper van de wijzigingen zelf die zullen worden doorgevoerd;</li>
 <li>Binnen het wijzigingsbeheer worden alleen werkafspraken gemaakt, die vooruitlopen op daadwerkelijk aanstaande wijzigingen. Er worden binnen dit kader geen permanente werkafspraken gemaakt die niet verankerd zullen worden in de geo-standaard;</li>
@@ -1673,9 +1659,7 @@ Voor bovengenoemde voorbeelden zouden de werkafspraken resp. als volgt kunnen zi
 </ul><br>
 Schema’s en Schematron (validatieregels) zijn voorbeelden van implementatiebestanden die als onderdeel van standaarden door Geonovum worden opgeleverd. Het kan hier ook gaan om implementatiebestanden voor visualisatieregels en iconen.
 Voorbeeldbestanden en voorbeeldberichten kunnen worden gebruikt voor het testen van applicaties.
-<br>
-
-</section><section id="validatie-en-certificatie"><div class="header-wrapper"><h3 id="7256DB88"><bdi class="secno">5.2 </bdi>Validatie en certificatie</h3><a class="self-link" href="#7256DB88" aria-label="Permalink for Section 5.2"></a></div><p>Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers en beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De linter of validator is het hulpmiddel bij uitstek hierbij. Geonovum biedt waar dit wenselijk is linters of validators aan waarmee ontwikkelaars tijdens het schrijven van hun code, danwel achteraf, kunnen controleren of hun software voldoet aan de standaarden.
+<br></section><section id="validatie-en-certificatie"><div class="header-wrapper"><h3 id="7256DB88"><bdi class="secno">5.2 </bdi>Validatie en certificatie</h3><a class="self-link" href="#7256DB88" aria-label="Permalink for Section 5.2"></a></div><p>Na het opleveren van de nieuwe standaard inclusief de verschillende onderdelen, richten wij ons op de ondersteuning van de standaard door softwareleveranciers en beheerders van voorzieningen/ registers. Bij deze groep gebruikers is de ondersteuning vooral technisch van aard. De linter of validator is het hulpmiddel bij uitstek hierbij. Geonovum biedt waar dit wenselijk is linters of validators aan waarmee ontwikkelaars tijdens het schrijven van hun code, danwel achteraf, kunnen controleren of hun software voldoet aan de standaarden.
 Soms zetten we conformiteitstoetsing in zoals bij NEN 3610. In dat geval wordt een testprotocol voor een conformiteitstoets beschikbaar gesteld, waarmee (handmatig) kan worden gecontroleerd of een implementatie aan de norm voldoet.
 Ook certificering van applicaties is mogelijk. Certificering van applicaties ondersteunt niet zozeer de (kwaliteit van de) implementatie van de standaarden, als wel de (snelheid van) adoptie ervan. Zodra het werkveld voldoende volwassen is en certificering niet meer nodig is om adoptie te versnellen, kan certificering komen te vervallen.
 <br></p>
@@ -1754,8 +1738,11 @@ function setupPanel() {
 }
 
 function panelListener() {
-  /** @type {HTMLElement} */
+  /** @type {HTMLElement | null} */
   let panel = null;
+  /**
+   * @param {KeyboardEvent|MouseEvent} event
+   */
   return event => {
     const { target, type } = event;
 
@@ -1763,24 +1750,34 @@ function panelListener() {
 
     // For keys, we only care about Enter key to activate the panel
     // otherwise it's activated via a click.
-    if (type === "keydown" && event.key !== "Enter") return;
+    if (
+      type === "keydown" &&
+      /** @type {KeyboardEvent} */ (event).key !== "Enter"
+    )
+      return;
 
     const action = deriveAction(event);
 
     switch (action) {
       case "show": {
         hidePanel(panel);
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const dfn = target.closest("dfn, .index-term");
+        if (!dfn?.id) break;
         panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
-        const coords = deriveCoordinates(event);
+        if (!panel) break;
+        const coords = deriveCoordinates(
+          /** @type {MouseEvent|KeyboardEvent} */ (event)
+        );
         displayPanel(dfn, panel, coords);
         break;
       }
       case "dock": {
-        panel.style.left = null;
-        panel.style.top = null;
-        panel.classList.add("docked");
+        if (panel) {
+          panel.style.left = "";
+          panel.style.top = "";
+          panel.classList.add("docked");
+        }
         break;
       }
       case "hide": {
@@ -1831,7 +1828,8 @@ function deriveAction(event) {
     if (hitALink) {
       return target.classList.contains("self-link") ? "hide" : "dock";
     }
-    const panel = target.closest(".dfn-panel");
+
+    const panel = /** @type {HTMLElement} */ (target.closest(".dfn-panel"));
     return panel.classList.contains("docked") ? "hide" : "none";
   }
   if (document.querySelector(".dfn-panel:not([hidden])")) {
@@ -1875,9 +1873,9 @@ function displayPanel(dfn, panel, { x, y }) {
     const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
     const newCaretOffset = left - newLeft;
     panel.style.left = `${newLeft}px`;
-    /** @type {HTMLElement} */
+    /** @type {HTMLElement | null} */
     const caret = panel.querySelector(".caret");
-    caret.style.left = `${newCaretOffset}px`;
+    if (caret) caret.style.left = `${newCaretOffset}px`;
   }
 
   // As it's a dialog, we trap focus.
@@ -1926,6 +1924,9 @@ function trapFocus(panel, dfn) {
 function createTrapListener(anchors, panel, dfn) {
   const lastIndex = anchors.length - 1;
   let currentIndex = 0;
+  /**
+   * @param {KeyboardEvent} event
+   */
   return event => {
     switch (event.key) {
       // Hitting "Tab" traps us in a nice loop around elements.
@@ -1955,10 +1956,10 @@ function createTrapListener(anchors, panel, dfn) {
   };
 }
 
-/** @param {HTMLElement} panel */
+/** @param {HTMLElement | null} panel */
 function hidePanel(panel) {
   if (!panel) return;
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Beheerdocumentatie - Versie ter vaststelling</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Beheerdocumentatie - Vastgestelde versie</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>

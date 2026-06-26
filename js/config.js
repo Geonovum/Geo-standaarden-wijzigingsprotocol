@@ -3,10 +3,10 @@ let respecConfig = {
   useLabel: true,
   title: "Wijzigingsprotocol geo-standaarden",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
+  specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
-  specStatus: "def",              // Vastgestelde versie
+  //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   specType: "BD",                 // Beheer Documentatie
@@ -32,8 +32,8 @@ let respecConfig = {
   // manier doen
   //previousPublishDate: "2019-07-02",
   //previousMaturity: "def",
-  previousPublishDate: "2026-05-21",
-  previousMaturity: "vv",
+  previousPublishDate: "2026-06-26",
+  previousMaturity: "def",
   //prevVersion: ["https://docs.geostandaarden.nl/gsw/def-bd-gsw-20211019/"],
 
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
